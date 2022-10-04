@@ -53,6 +53,23 @@ export class HeaderComponent implements OnInit {
     flag: 'flag-EN'
   }
 
+
+  public navList = [
+    {
+      description: 'home'
+    },
+
+    {
+      description: 'about'
+    },
+    {
+      description: 'Projects'
+    },
+    {
+      description: 'contact'
+    },
+
+  ]
   constructor(
     private sharedService: SharedService,
     public deviceService: DeviceDetectorService,
