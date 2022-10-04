@@ -10,7 +10,7 @@
     </div>
     <div class="header__nav" *ngIf="!deviceService.isMobile()">
       <button
-        class="button btn-contact language-button"
+        class="button header__language-button header__language"
         (mouseover)="hoverLanguage = true"
         (mouseout)="hoverLanguage = false"
       >
@@ -21,7 +21,7 @@
 
         <span> {{ selectLanguage.text | translate }}</span>
         <fa-icon [icon]="faAngleDown" class="arrow-icon fade"></fa-icon>
-        <div class="pop-up-container">
+        <div class="header__pop-up_language">
           <div class="items-languages">
             <div
               class="language"
@@ -38,17 +38,15 @@
         </div>
       </button>
       <ul class="header__nav-list">
-        <li *ngFor="let item of navList"  class="header__item-list">
-          <a class="header__link" [href]="'/'"        target="_blank">
+        <li *ngFor="let item of navList" class="header__item-list">
+          <a class="header__link" [href]="'/'" target="_blank">
             {{ item.description }}
           </a>
         </li>
       </ul>
-      <!-- <button class="button btn-contact is-outlined" (click)="goTo('contact')">
-        {{ "HEADER.DECIR_HOLA" | translate }}
-      </button> -->
+
     </div>
-    <div *ngIf="deviceService.isMobile()">
+    <!-- <div *ngIf="deviceService.isMobile()">
       <button
         name="managerMenu"
         (click)="showPopUp = !showPopUp"
@@ -84,6 +82,6 @@
           </button>
         </div>
       </button>
-    </div>
+    </div> -->
   </nav>
 </header>

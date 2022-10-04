@@ -23,23 +23,11 @@ h2 {
   // font-family: "Open Sans", sans-serif;
 }
 
-a{
-
+a, span, p{
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.button {
-  cursor: pointer;
-  background-color: #fff;
-  border-color: #dbdbdb;
-  border-width: 1px;
-  color: #363636;
-  justify-content: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: calc(0.5em - 1px);
-  text-align: center;
-  white-space: nowrap;
-}
+
 
 .container-main-view {
   margin: 2rem 0;

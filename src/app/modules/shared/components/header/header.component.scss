@@ -74,45 +74,35 @@
   text-decoration: underline;
 }
 
-.btn-contact {
+.header__language-button {
   font-weight: 400;
-  font-size: 18px;
-  padding: 0.7rem;
+  font-size: 1rem;
   background-color: #0000;
-  // color: $base-color;
   border-radius: 9999px;
-  border: 2px solid $base-color;
-  padding-left: calc(1em + 0.25em);
-  padding-right: calc(1em + 0.25em);
+  font-weight: 700;
+  text-transform: uppercase;
+  align-items: center;
 }
 
-// .is-outlined:hover {
-//   background-color: $base-color;
-//   border-color: $base-color;
-//   color: #fff;
-//   transition: all 0.2s ease-in-out;
-// }
-
-.pop-up-container {
+.header__pop-up_language {
   display: none;
 }
 
-.language-button {
+.header__language {
   border: none;
   position: relative;
   transition: all 0.3s ease;
   display: flex;
-  margin-right: 5px;
   img {
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
   }
   span {
     margin: 0 5px 0 10px;
   }
 }
 
-.language-button:hover .pop-up-container {
+.header__language:hover .header__pop-up_language {
   position: absolute;
   left: 0;
   top: 100%;
@@ -135,11 +125,11 @@
 }
 
 .language:hover {
-  background-color: #e6cfff;
+  // background-color: #e6cfff;
+color: $base-color;
 }
 
-.language-button:hover {
-  background-color: #f4eaff;
+.header__language:hover {
   fa-icon {
     transform: rotateZ(-180deg);
   }
@@ -178,7 +168,7 @@
     margin: 0 5px 0 10px;
   }
 
-  .pop-up-container-small {
+  .header__pop-up_language-small {
     position: absolute;
     right: 70%;
     top: 80%;
