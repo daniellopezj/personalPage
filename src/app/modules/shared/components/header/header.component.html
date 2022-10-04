@@ -1,6 +1,6 @@
-<div class="main-container">
-  <nav class="custom-nav">
-    <div class="navbar-end" (click)="goTo('')">
+<header class="header">
+  <nav class="header__content">
+    <div class="header__home" (click)="goTo('')">
       <img
         class="custom-logo"
         src="../../../../../assets/logo.png"
@@ -8,7 +8,7 @@
       />
       <span class="title"> Daniel López</span>
     </div>
-    <div class="navbar-end" *ngIf="!deviceService.isMobile()">
+    <div class="header__nav" *ngIf="!deviceService.isMobile()">
       <button
         class="button btn-contact language-button"
         (mouseover)="hoverLanguage = true"
@@ -37,9 +37,16 @@
           </div>
         </div>
       </button>
-      <button class="button btn-contact is-outlined" (click)="goTo('contact')">
+      <ul class="header__nav-list">
+        <li *ngFor="let item of navList"  class="header__item-list">
+          <a class="header__link" [href]="'/'"        target="_blank">
+            {{ item.description }}
+          </a>
+        </li>
+      </ul>
+      <!-- <button class="button btn-contact is-outlined" (click)="goTo('contact')">
         {{ "HEADER.DECIR_HOLA" | translate }}
-      </button>
+      </button> -->
     </div>
     <div *ngIf="deviceService.isMobile()">
       <button
@@ -79,4 +86,4 @@
       </button>
     </div>
   </nav>
-</div>
+</header>

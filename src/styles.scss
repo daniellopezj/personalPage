@@ -1,24 +1,30 @@
 @import "./shared.scss";
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&family=Source+Sans+Pro:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
 html,
 body {
   text-rendering: optimizeLegibility;
   margin: 0;
   padding: 0;
-  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
 }
 
 h1 {
   margin: 0;
-}
-h2 {
   font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-input,
-textarea {
-  font-family: "Open Sans", sans-serif;
+li{
+  list-style: none;
+}
+h2 {
+  // font-family: "Open Sans", sans-serif;
+}
+
+a{
+
 }
 
 .button {
@@ -51,7 +57,6 @@ textarea {
   padding-bottom: 0;
 }
 
-
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
   .content-view {
@@ -65,7 +70,7 @@ textarea {
 
 //tablet
 @media print,
-screen and (min-width: $min-screen-tablet) and ( max-width:$max-screen-tablet) {
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
 }
 
 //desktop
