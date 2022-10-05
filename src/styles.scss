@@ -39,6 +39,12 @@ a {
   text-decoration: initial;
 }
 
+.main-container {
+  max-width: $big-max-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 .btn {
   background: $base-color;
   color: #333;
@@ -51,20 +57,48 @@ a {
   transition: transform 0.3s;
 }
 
-.container-main-view {
-  margin: 2rem 0;
-  width: 100%;
+.title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
 }
 
-.content-view {
-  margin: 0 auto;
-  padding: 3rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.title::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 3rem;
+  background: #facf0f;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.subtitle {
+  display: block;
   text-align: center;
-  max-width: $big-max-width;
-  padding-bottom: 0;
+  color: #666;
+  font-size: 1.3rem;
+  font-weight: 500;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.container__title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7rem;
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
 }
 
 //phone

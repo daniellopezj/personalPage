@@ -1,12 +1,19 @@
 @import "./src/shared.scss";
 
-.wrapper-testimony {
+.testimony {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin: 2rem auto;
   text-align: center;
   font-size: 1.2rem;
+}
+
+.testimony__content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+  margin: 2rem 0;
 }
 
 .avatar-container {
@@ -20,18 +27,16 @@
   border-radius: 50%;
 }
 
-.description {
-  margin: 2rem auto;
-  font-size: 1.3rem;
-  text-align: center;
+.testimony__name {
+  font-weight: bolder ;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
-.name {
-  font-weight: bolder;
-}
-
-.proffesion {
-  font-size: 1rem;
+.testimony__proffesion {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
 }
 
 //phone

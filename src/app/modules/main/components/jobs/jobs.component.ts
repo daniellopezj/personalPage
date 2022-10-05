@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-jobs',
   templateUrl: './jobs.component.html',
@@ -35,22 +36,25 @@ export class JobsComponent  {
       link: 'https://www.loom.com/share/d3f3076ecac24c19b3574e6451cbd70f',
       type:'video'
     },
-    {
-      image: `${this.path}/visyon.jpg`,
-      title: 'visyion 360',
-      description: 'JOBS.TRABAJO5.DESCRIPCION',
-      link: 'https://metahype-develop.visyonappsdev.com/landing'
-    },
-    {
-      image: `${this.path}/task.png`,
-      title: 'ahuam',
-      description: 'JOBS.TRABAJO6.DESCRIPCION',
-      link: 'https://leanga.ahuam.com/#/oauth/login'
-    },
+    // {
+    //   image: `${this.path}/visyon.jpg`,
+    //   title: 'visyion 360',
+    //   description: 'JOBS.TRABAJO5.DESCRIPCION',
+    //   link: 'https://metahype-develop.visyonappsdev.com/landing'
+    // },
+    // {
+    //   image: `${this.path}/task.png`,
+    //   title: 'ahuam',
+    //   description: 'JOBS.TRABAJO6.DESCRIPCION',
+    //   link: 'https://leanga.ahuam.com/#/oauth/login'
+    // },
 
 
   ]
 
-  constructor() { }
+  constructor() {
+
+
+  }
 
 }

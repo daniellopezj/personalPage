@@ -1,27 +1,26 @@
-<section #recomendations class="section-recomendations container-main-view">
-  <div class="content-view container-recomendations">
-    <div class="main-text">
-      <h2 class="title">
-        {{ "RECOMMENDATIONS.TITULO" | translate }}
-      </h2>
-      <span class="description">
+<section #recomendations class="reviews">
+  <div class="main-container">
+    <div class="container__title container__title--transform-margin">
+      <h1 class="title">{{ "RECOMMENDATIONS.TITULO" | translate }}</h1>
+      <span class="subtitle">
         {{ "RECOMMENDATIONS.DESCRIPCION" | translate }}
       </span>
     </div>
-    <div class="box-recomendations">
+
+    <div class="reviews__content">
       <div #testimonyComponent>
         <app-testimony [testimony]="currentTestimony"> </app-testimony>
       </div>
     </div>
-    <div class="controls">
+    <div class="reviews__controls">
       <div
-        class="container-dot"
+        class="reviews__container-dot"
         *ngFor="let item of testimonies; let i = index"
       >
         <span
           (click)="controlDot(i)"
-          class="dot"
-          [ngClass]="{ 'dot-active': activeDot === i }"
+          class="reviews__dot"
+          [ngClass]="{ 'reviews__dot--active': activeDot === i }"
         ></span>
       </div>
     </div>

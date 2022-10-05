@@ -1,46 +1,24 @@
 @import "./src/shared.scss";
 
-.section-recomendations {
-  display: flex;
-  flex-direction: column;
+.reviews {
+  padding: 7rem 0;
+  background-color: #fafafa;
 }
 
-.container-recomendations {
-  padding: 6rem 1.5rem;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: bolder;
-  margin: 0;
-}
-
-.box-recomendations {
+.reviews__content {
   display: flex;
   margin: 0 auto;
-  background-color: $white-color;
   border-radius: 12px;
   max-width: 700px;
 }
 
-.controls {
+.reviews__controls {
   display: flex;
   width: 100%;
   justify-content: center;
 }
 
-.main-text {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.description {
-  margin: 2rem auto;
-  font-size: 1.3rem;
-  font-weight: initial;
-}
-
-.dot {
+.reviews__dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -51,7 +29,11 @@
   transition: background-color 0.6s ease;
 }
 
-.dot-active {
+.container__title--transform-margin{
+  margin-bottom: 4rem;
+}
+
+.reviews__dot--active {
   background-color: $base-color;
 }
 
@@ -89,10 +71,10 @@
     font-size: 1rem;
     font-weight: initial;
   }
-  .dot {
+  .reviews__dot {
     padding: 2px;
   }
-  .container-dot {
+  .reviews__container-dot {
     padding: 10px;
   }
 }
