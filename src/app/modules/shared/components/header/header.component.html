@@ -2,11 +2,11 @@
   <nav class="header__content">
     <div class="header__home" (click)="goTo('')">
       <img
-        class="custom-logo"
+        class="header__logo"
         src="../../../../../assets/logo.png"
         alt="logo"
       />
-      <span class="title"> Daniel López</span>
+      <span class="header__title"> Daniel López</span>
     </div>
     <div class="header__nav" *ngIf="!deviceService.isMobile()">
       <button

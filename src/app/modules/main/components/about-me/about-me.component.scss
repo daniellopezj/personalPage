@@ -1,57 +1,61 @@
 @import "./src/shared.scss";
-.container-about-me {
-  width: 100%;
-  min-height: 600px;
+
+.about {
+  padding: 7rem 0;
+  background-color: #fafafa;
+}
+
+.about__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+
+}
+.about__me {
   display: flex;
+  flex-direction: column;
 }
 
-.content-about-me {
-  text-align: center;
-  max-width: 70%;
-  padding-bottom: 10rem;
-  justify-content: initial;
+.about__second-title--margin{
+  margin-top: 2rem;
 }
 
-.description {
-  margin: 0;
-  font-size: 1.3rem;
+.about__me-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 2rem;
+}
+.about__me-contact {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills__skill {
+  padding: 0.5rem 1rem;
   margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  font-size: 1.1rem;
+  background: #9993;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
 }
 
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
-  .title {
-    font-size: 1.3rem;
-  }
-  .description {
-    font-size: 1rem !important;
-    font-weight: initial;
-  }
-  .container-about-me {
-    margin: 1.5rem 0;
-  }
-  .content-about-me {
-    max-width: 90%;
-    padding-top: 2rem;
-    padding-bottom: 60%;
-  }
 }
 
 //tablet
 @media print,
   screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
-  .title {
-    font-size: 1.5rem;
-  }
-  .description {
-    font-size: 1.1rem !important;
-    font-weight: initial !important;
-  }
-  .content-about-me {
-    max-width: 80%;
-    padding-top: 0;
-    padding-bottom: 20%;
-  }
 }
 
 //desktop

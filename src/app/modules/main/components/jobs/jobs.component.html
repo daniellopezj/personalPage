@@ -1,36 +1,32 @@
-<section #collaborations class="container-main-view">
-  <div class="content-view content-collaborations">
-    <div class="main-text">
-      <h2 class="title">{{ "JOBS.TITULO" | translate }}</h2>
-      <p class="description">
-        {{ "JOBS.DESCRIPCION" | translate }}
-
-        <a
-          class="link-github"
-          href="https://github.com/dlopez-dev"
-          target="_blank"
-        >
-          {{ "JOBS.VER_GITHUB" | translate }}
-        </a>
-      </p>
+<section id="projects" class="projects">
+  <div class="main-container">
+    <div class="container__title">
+      <h1 class="title">Projects</h1>
+      <span class="subtitle">
+        Here you will find some of the personal and clients projects that I
+        created with each project containing its own case study
+      </span>
     </div>
-    <div class="container-jobs">
-      <div class="card-job" *ngFor="let job of jobs; let i = index">
-        <figure class="custom-figure">
-          <img class="job-image" [src]="job.image" alt="logo" />
-          <figcaption class="figcaption">
-            <h3>{{ job.title | translate }}</h3>
-            <h4 class="job-description">{{ job.description | translate }}</h4>
-            <a [href]="job.link" target="_blank" class="go-to-website">
-              {{
-                job.type === "video"
-                  ? ("JOBS.VER_VIDEO" | translate)
-                  : ("JOBS.VISITAR_WEB" | translate)
-              }}
-              <fa-icon class="icon-angle-right" [icon]="faAngleRight"></fa-icon
-            ></a>
-          </figcaption>
-        </figure>
+    <div class="projects__content">
+      <div class="projects__row" *ngFor="let item of jobs">
+        <iframe
+          class="projects__video"
+          width="560"
+          height="350"
+          src="https://www.youtube.com/embed/1ozGKlOzEVc"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <div class="projects__details">
+          <h1 class="second-title">Get to know me!</h1>
+          <div class="projects__details-content">
+            <p>
+              I'm a Frontend Web Developer building the Front-end of Websites
+              and Web Applications that leads to the success of the overall
+              product. Check out some of my work in the Projects section.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

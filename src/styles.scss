@@ -1,6 +1,6 @@
 @import "./shared.scss";
 // @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&family=Source+Sans+Pro:wght@600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
 html,
 body {
   text-rendering: optimizeLegibility;
@@ -16,33 +16,89 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-li{
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
   list-style: none;
 }
 h2 {
   // font-family: "Open Sans", sans-serif;
 }
 
-a, span, p{
+a,
+span,
+p {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-
-
-.container-main-view {
-  margin: 2rem 0;
-  width: 100%;
+a {
+  color: black;
+  text-decoration: initial;
 }
 
-.content-view {
-  margin: 0 auto;
-  padding: 3rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+.main-container {
   max-width: $big-max-width;
-  padding-bottom: 0;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.btn {
+  background: $base-color;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  transition: transform 0.3s;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 1.5rem);
+  height: 5px;
+  width: 3rem;
+  background: #facf0f;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.subtitle {
+  display: block;
+  text-align: center;
+  color: #666;
+  font-size: 1.3rem;
+  font-weight: 500;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.container__title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7rem;
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
 }
 
 //phone

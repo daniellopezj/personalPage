@@ -18,24 +18,23 @@
   box-sizing: border-box;
 }
 
-.custom-logo {
+.header__home {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
   cursor: pointer;
   height: 60px;
   width: 60px;
 }
 
-.title {
+.header__title {
   cursor: pointer;
   margin-left: 10px;
   font-size: 1.5rem;
   font-weight: bolder;
   text-transform: uppercase;
-  // color: $base-color;
-}
-
-.header__home {
-  display: flex;
-  align-items: center;
 }
 
 .header__nav {
@@ -64,8 +63,7 @@
 .header__link {
   cursor: pointer;
   text-transform: uppercase;
-  text-decoration: initial;
-  color: black;
+
   font-weight: 700;
 }
 
