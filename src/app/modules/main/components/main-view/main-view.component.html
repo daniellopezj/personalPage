@@ -1,10 +1,26 @@
 <section class="main-view__container">
   <div class="main-view__content">
-      <h1 class="main-view__title">{{ "MAIN_VIEW.TITULO" | translate }}</h1>
-      <p class="main-view__info">
-        {{ "MAIN_VIEW.DESCRIPCION" | translate }}
-      </p>
+    <h1 class="main-view__title">{{ "MAIN_VIEW.TITULO" | translate }}</h1>
+    <p class="main-view__info">
+      {{ "MAIN_VIEW.DESCRIPCION" | translate }}
+    </p>
+    <div class="main-view__btn-projects">
+      <a href="./#project" class="btn main-view__link-projects ">
+        Projects
+      </a>
+    </div>
   </div>
+  <div class="main-view__social">
+    <a
+      class="main-view__link"
+      *ngFor="let item of controls"
+      [href]="'/'"
+      target="_blank"
+    >
+      <fa-icon [icon]="item.icon"></fa-icon>
+    </a>
+  </div>
+
   <!-- <div class="main-view__social">
     <div class="view-body">
       <h1 class="title-work">{{ "MAIN_VIEW.TITULO" | translate }}</h1>

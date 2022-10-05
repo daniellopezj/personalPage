@@ -8,7 +8,7 @@
   text-align: center;
   position: relative;
   background: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc),
-    url('./../../../../../assets/background.svg');
+    url("./../../../../../assets/background.svg");
   background-position: center;
 }
 
@@ -31,6 +31,36 @@
   margin: 2rem auto 0 auto;
   font-size: 1.3rem;
   max-width: 45rem;
+}
+
+.main-view__social {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.main-view__link:hover {
+  background-color: #facf0f33;
+}
+
+.main-view__link {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.main-view__btn-projects {
+  margin-top: 2.5rem;
+}
+
+.main-view__link-projects{
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
 }
 
 //phone
