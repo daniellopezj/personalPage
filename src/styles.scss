@@ -24,9 +24,6 @@ ul {
 li {
   list-style: none;
 }
-h2 {
-  // font-family: "Open Sans", sans-serif;
-}
 
 a,
 span,
@@ -43,6 +40,7 @@ a {
   max-width: $big-max-width;
   margin: 0 auto;
   padding: 0 1rem;
+  width: 92%;
 }
 
 .btn {
@@ -55,7 +53,24 @@ a {
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
   transition: transform 0.3s;
+  border: none;
+  cursor: pointer;
 }
+
+input,
+textarea {
+  outline: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  justify-content: flex-start;
+  padding: calc(0.5em - 1px);
+}
+
 
 .title {
   text-transform: uppercase;

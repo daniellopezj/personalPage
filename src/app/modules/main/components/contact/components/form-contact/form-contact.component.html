@@ -1,0 +1,60 @@
+<div class="form-contact__container">
+  <form [formGroup]="formContact">
+    <div class="col-12 form-contact__input-row">
+      <label for="name">{{ "FORM_CONTACT.NOMBRE" | translate }}</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="name"
+        placeholder=""
+        name="name"
+      />
+      <app-validate-control
+        [control]="form['name']"
+        [message]="inputValidate('name')"
+      ></app-validate-control>
+    </div>
+    <div class="col-12 form-contact__input-row">
+      <label for="email">{{ "FORM_CONTACT.EMAIL" | translate }}</label>
+      <input
+        formControlName="email"
+        type="text"
+        class="form-control"
+        placeholder=""
+        name="email"
+      />
+      <app-validate-control
+        [control]="form['email']"
+        [message]="inputValidate('email')"
+      ></app-validate-control>
+    </div>
+    <div class="col-12 form-contact__input-row">
+      <label for="message">{{ "FORM_CONTACT.MENSAJE" | translate }}</label>
+      <textarea
+        formControlName="message"
+        class="form-control"
+        name="message"
+        id="message"
+        cols="30"
+        rows="5"
+      ></textarea>
+      <app-validate-control
+        [control]="form['message']"
+        [message]="inputValidate('message')"
+      ></app-validate-control>
+    </div>
+  </form>
+  <div class="col-12 form-contact__input-row">
+    <div class="container-button">
+      <button
+        class="btn btn-contact "
+        (click)="sendMessage()"
+        appLoadingBtn
+        [loadingFlag]="sending"
+        [disabled]="sending"
+        [textInitial]="'FORM_CONTACT.ENVIAR' | translate"
+        [textLoading]="'FORM_CONTACT.ENVIANDO' | translate"
+      ></button>
+    </div>
+  </div>
+</div>
