@@ -15,6 +15,7 @@ import { TestimonyComponent } from './components/recomendations/testimony/testim
 import { JobsComponent } from './components/jobs/jobs.component';
 import { CollaborationsComponent } from './components/collaborations/collaborations.component';
 import { CompanyComponent } from './components/collaborations/company/company.component';
+import { ContactModule } from './components/contact/contact.module';
 
 
 @NgModule({
@@ -28,14 +29,15 @@ import { CompanyComponent } from './components/collaborations/company/company.co
     TestimonyComponent,
     JobsComponent,
     CollaborationsComponent,
-    CompanyComponent
+    CompanyComponent,
   ],
   imports: [
     CommonModule,
     MainRoutingModule,
     SharedModule,
     FontAwesomeModule,
-    TranslateModule
+    TranslateModule,
+    ContactModule
   ]
 })
 export class MainModule { }
