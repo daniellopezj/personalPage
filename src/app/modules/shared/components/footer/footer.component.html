@@ -1,39 +1,19 @@
 <section class="footer">
-  <div class="section">
-    <div class="container-start-project">
-      <div class="start-project">
-        <h1 class="item-start-project title-start-project">
-          {{ "FOOTER.INICIAR_PROYECTO" | translate }}
-        </h1>
-        <span class="item-start-project">
-          {{ "FOOTER.ENCONTRARNOS" | translate }}
+  <footer class="main-container">
+    <div class="footer__container">
+      <div class="footer__content">
+        <h1 class="footer__content-title">Daniel lópez</h1>
+
+        <span class="footer__content-description">
+          RAM MAHESHWARI A Frontend focused Web Developer building the Frontend
+          of Websites and Web Applications that leads to the success of the
+          overall product
         </span>
-        <div class="item-start-project">
-          <button
-            class="button btn-contact is-outlined"
-            (click)="goTo('contact')"
-          >
-            {{ "FOOTER.HAGAMOSLO" | translate }}
-          </button>
-        </div>
       </div>
-    </div>
-  </div>
-  <footer class="section-footer">
-    <div class="container-info-footer">
-      <img
-        class="custom-logo"
-        src="../../../../../assets/logo-inverse.png"
-        alt="logo"
-      />
-      <div class="motivation-text">
-        <h1>
-          {{ "FOOTER.MOTIVACION" | translate }}
-        </h1>
-      </div>
-      <div class="controls">
+      <div class="footer__social">
+        <h1 class="footer__social-title">Social</h1>
         <a
-          class="item-link"
+          class="footer__social-link"
           *ngFor="let item of controls"
           [href]="item.link"
           target="_blank"
@@ -42,12 +22,19 @@
           <fa-icon [icon]="item.icon"></fa-icon>
         </a>
       </div>
-      <div class="copy-right">
-        {{ "FOOTER.CREADO_POR" | translate }} &copy; 2022
+    </div>
+    <div class="footer__last-line">
+      <div class="footer__copy-right">
+        &copy; Copyright 2022, Made by
+        <a class="footer__personal-link" href="/" target="_blank">
+          Daniel López
+        </a>
       </div>
-      <div class="copy-right">
-        <span class="small-text"> {{ "FOOTER.CREADO_CON" | translate }} </span>
-        <span class="bold"> Angular</span>
+      <div class="footer__create-with">
+        <span>
+          {{ "FOOTER.CREADO_CON" | translate }}
+          <span class="bold"> Angular</span>
+        </span>
       </div>
     </div>
   </footer>

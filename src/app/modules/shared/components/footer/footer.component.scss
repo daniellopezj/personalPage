@@ -1,114 +1,75 @@
 @import "./src/shared.scss";
 
 .footer {
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: $base-color;
-  padding: 1rem 1.5rem 4rem;
+  background-color: black;
+  padding: 5rem 2rem 2rem 2rem;
   color: #fff;
 }
 
-.section {
-  padding: 5rem 1.5rem;
-}
-
-.container-start-project {
-  display: flex;
-  padding: 3.5rem 1.25rem;
-  margin: 0 auto;
-  margin-top: -9rem;
-  background-color: #141c3a;
-  box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%), 0 0 0 1px #141c3a;
-  border-radius: 12px;
-  color: $white-color;
-  max-width: $big-max-width;
-}
-
-.start-project,
-.container-info-footer {
+.footer__container {
   width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
 }
 
-.custom-logo {
-  height: 60px;
-  width: 60px;
+.footer__content {
+  max-width: 40%;
 }
 
-.container-info-footer {
+.footer__content-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-.item-start-project {
-  flex-basis: 0;
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #eee;
+  margin-bottom: 2rem;
 }
 
-.title-start-project {
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 0;
+.footer__content-title,
+.footer__social-title {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 
-.btn-contact {
-  font-weight: 400;
-  font-size: 18px;
-  padding: 0.7em 2rem;
-  background-color: #0000;
-  border-radius: 9999px;
-  border: 2px solid $second-color;
-  color: white;
-}
-
-.is-outlined:hover {
-  background-color: $second-color;
-  color: black;
-  transition: all 0.2s ease-in-out;
-}
-
-.motivation-text {
-  margin-top: 2rem;
-  opacity: 0.7;
-  max-width: 320px;
-  text-align: center;
-}
-
-.controls {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 2rem 0;
-}
-
-.item-link {
+.footer__social-link {
   cursor: pointer;
-  margin: 0 10px;
+  margin-right: 1rem;
   padding: 7px 12px;
   border-radius: 50%;
   border: 2px solid #ffffff4d;
   color: white;
 }
 
-.item-link:hover {
+.footer__social-link:hover {
   background-color: white;
-  color: $base-color;
+  color: black;
 }
 
-.copy-right {
+.footer__last-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #444;
+  text-align: center;
+}
+
+.footer__create-with,
+.footer__copy-right {
   margin-top: 0.7rem;
   font-size: 1rem;
+  font-size: 0.8rem;
   opacity: 0.7;
 }
 
-.small-text {
-  font-size: 0.7rem;
+.footer__personal-link {
+  cursor: pointer;
+  border-radius: 50%;
+  font-weight: bolder;
+  color: white;
 }
 
 .bold {

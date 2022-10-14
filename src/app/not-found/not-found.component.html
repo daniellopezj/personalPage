@@ -1,21 +1,19 @@
 <app-header></app-header>
+<div class="not-found__container">
+  <div class="not-found__content">
+    <h1 class="not-found__title">
+    Hmmmm! No hemos encontrado lo que buscabas.
+    </h1>
+    <img
+      class="not-found__image"
+      src="../../../../assets/not-found.svg"
+      alt="logo"
+    />
 
-<div class="container-last-section">
-  <div class="content-view p-0">
-    <div class="body-not-found">
-      <h2 class="description-text">
-        {{ "NOT_FOUND.TITULO" | translate }}
-      </h2>
-      <img
-        class="image-not-found"
-        src="../../../../assets/not-found.svg"
-        alt="logo"
-      />
-      <div class="container-button">
-        <button class="button btn-contact is-outlined" (click)="goTo('')">
-          {{ "NOT_FOUND.RETORNAR" | translate }}
-        </button>
-      </div>
+    <div class="not-found__container-button">
+      <a href="/" class="btn not-found__link">
+        {{ "NOT_FOUND.RETORNAR" | translate }}
+      </a>
     </div>
   </div>
 </div>
