@@ -146,9 +146,31 @@
   display: inline-block;
   transition: all 0.3s ease-out;
 }
+.header__sidebar-button {
+  display: none;
+}
 
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
+  .header__content {
+    padding: 1rem;
+    // padding-right: 0.5rem;
+  }
+  .header__container-logo{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .header
+  .header__sidebar-button {
+    display: initial;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__title{
+    font-size: 1rem;
+  }
+
   .pop-up-button {
     border: none;
     position: relative;

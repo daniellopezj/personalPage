@@ -3,14 +3,51 @@
     <div class="header__home" (click)="goTo('')">
       <div class="header__container-logo">
         <img
-        class="header__logo"
-        src="../../../../../assets/profile.png"
-        alt="logo"
+          class="header__logo"
+          src="../../../../../assets/profile.png"
+          alt="logo"
         />
       </div>
       <span class="header__title"> Daniel López</span>
     </div>
-    <div class="header__nav" *ngIf="!deviceService.isMobile()">
+    <div class="header__sidebar-button">
+      <button
+        name="managerMenu"
+        (click)="showPopUp = !showPopUp"
+        (clickOutside)="showPopUp = false"
+        aria-label="search"
+        class="btn animated pop-up-button"
+      >
+        <fa-icon
+          class="custom-icon-pop-up"
+          [icon]="faEllipsisVertical"
+        ></fa-icon>
+        <div class="pop-up-container-small" *ngIf="showPopUp">
+          <span class="pop-up-title">{{ "HEADER.IDIOMA" | translate }}</span>
+          <div class="items-languages">
+            <div
+              class="language"
+              (click)="changeLanguage(language.value)"
+              *ngFor="let language of languages"
+            >
+              <img
+                src="{{ '../../../../../assets/' + language.flag + '.png' }}"
+                alt=""
+              />
+              <span class="text-language">{{ language.text | translate }}</span>
+            </div>
+          </div>
+          <span class="pop-up-title">{{ "HEADER.CONTACTO" | translate }}</span>
+          <button
+            class="button btn-contact is-outlined small-contact"
+            (click)="goTo('contact')"
+          >
+            {{ "HEADER.DECIR_HOLA" | translate }}
+          </button>
+        </div>
+      </button>
+    </div>
+    <div class="header__nav">
       <button
         class="button header__language-button header__language"
         (mouseover)="hoverLanguage = true"
@@ -47,42 +84,5 @@
         </li>
       </ul>
     </div>
-    <!-- <div *ngIf="deviceService.isMobile()">
-      <button
-        name="managerMenu"
-        (click)="showPopUp = !showPopUp"
-        (clickOutside)="showPopUp = false"
-        aria-label="search"
-        class="btn animated pop-up-button"
-      >
-        <fa-icon
-          class="custom-icon-pop-up"
-          [icon]="faEllipsisVertical"
-        ></fa-icon>
-        <div class="pop-up-container-small" *ngIf="showPopUp">
-          <span class="pop-up-title">{{ "HEADER.IDIOMA" | translate }}</span>
-          <div class="items-languages">
-            <div
-              class="language"
-              (click)="changeLanguage(language.value)"
-              *ngFor="let language of languages"
-            >
-              <img
-                src="{{ '../../../../../assets/' + language.flag + '.png' }}"
-                alt=""
-              />
-              <span class="text-language">{{ language.text | translate }}</span>
-            </div>
-          </div>
-          <span class="pop-up-title">{{ "HEADER.CONTACTO" | translate }}</span>
-          <button
-            class="button btn-contact is-outlined small-contact"
-            (click)="goTo('contact')"
-          >
-            {{ "HEADER.DECIR_HOLA" | translate }}
-          </button>
-        </div>
-      </button>
-    </div> -->
   </nav>
 </header>
