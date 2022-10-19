@@ -1,52 +1,16 @@
 <header class="header">
   <nav class="header__content">
     <div class="header__home" (click)="goTo('')">
-      <img
-        class="header__logo"
-        src="../../../../../assets/logo.png"
-        alt="logo"
-      />
+      <div class="header__container-logo">
+        <img
+          class="header__logo"
+          src="../../../../../assets/profile.png"
+          alt="logo"
+        />
+      </div>
       <span class="header__title"> Daniel López</span>
     </div>
-    <div class="header__nav" *ngIf="!deviceService.isMobile()">
-      <button
-        class="button header__language-button header__language"
-        (mouseover)="hoverLanguage = true"
-        (mouseout)="hoverLanguage = false"
-      >
-        <img
-          src="{{ '../../../../../assets/' + selectLanguage.flag + '.png' }}"
-          alt="{{ selectLanguage.text | translate }}"
-        />
-
-        <span> {{ selectLanguage.text | translate }}</span>
-        <fa-icon [icon]="faAngleDown" class="arrow-icon fade"></fa-icon>
-        <div class="header__pop-up_language">
-          <div class="items-languages">
-            <div
-              class="language"
-              (click)="changeLanguage(language.value)"
-              *ngFor="let language of languages"
-            >
-              <img
-                src="{{ '../../../../../assets/' + language.flag + '.png' }}"
-                alt=""
-              />
-              <span>{{ language.text | translate }}</span>
-            </div>
-          </div>
-        </div>
-      </button>
-      <ul class="header__nav-list">
-        <li *ngFor="let item of navList" class="header__item-list">
-          <a class="header__link" [href]="'/'" target="_blank">
-            {{ item.description }}
-          </a>
-        </li>
-      </ul>
-
-    </div>
-    <!-- <div *ngIf="deviceService.isMobile()">
+    <div class="header__sidebar-button">
       <button
         name="managerMenu"
         (click)="showPopUp = !showPopUp"
@@ -82,6 +46,43 @@
           </button>
         </div>
       </button>
-    </div> -->
+    </div>
+    <div class="header__nav">
+      <button
+        class="button header__language-button header__language"
+        (mouseover)="hoverLanguage = true"
+        (mouseout)="hoverLanguage = false"
+      >
+        <img
+          src="{{ '../../../../../assets/' + selectLanguage.flag + '.png' }}"
+          alt="{{ selectLanguage.text | translate }}"
+        />
+
+        <span> {{ selectLanguage.text | translate }}</span>
+        <fa-icon [icon]="faAngleDown" class="arrow-icon fade"></fa-icon>
+        <div class="header__pop-up_language">
+          <div class="items-languages">
+            <div
+              class="header__language"
+              (click)="changeLanguage(language.value)"
+              *ngFor="let language of languages"
+            >
+              <img
+                src="{{ '../../../../../assets/' + language.flag + '.png' }}"
+                alt=""
+              />
+              <span>{{ language.text | translate }}</span>
+            </div>
+          </div>
+        </div>
+      </button>
+      <ul class="header__nav-list">
+        <li *ngFor="let item of navList" class="header__item-list">
+          <a class="header__link" [href]="'/'" target="_blank">
+            {{ item.description }}
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </header>
