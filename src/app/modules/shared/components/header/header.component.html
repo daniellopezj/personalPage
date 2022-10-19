@@ -1,11 +1,13 @@
 <header class="header">
   <nav class="header__content">
     <div class="header__home" (click)="goTo('')">
-      <img
+      <div class="header__container-logo">
+        <img
         class="header__logo"
-        src="../../../../../assets/logo.png"
+        src="../../../../../assets/profile.png"
         alt="logo"
-      />
+        />
+      </div>
       <span class="header__title"> Daniel López</span>
     </div>
     <div class="header__nav" *ngIf="!deviceService.isMobile()">
@@ -24,7 +26,7 @@
         <div class="header__pop-up_language">
           <div class="items-languages">
             <div
-              class="language"
+              class="header__language"
               (click)="changeLanguage(language.value)"
               *ngFor="let language of languages"
             >
@@ -44,7 +46,6 @@
           </a>
         </li>
       </ul>
-
     </div>
     <!-- <div *ngIf="deviceService.isMobile()">
       <button
