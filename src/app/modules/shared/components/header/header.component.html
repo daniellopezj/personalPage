@@ -10,41 +10,21 @@
       </div>
       <span class="header__title"> Daniel López</span>
     </div>
-    <div class="header__sidebar-button">
+    <div class="header__sidebar-container">
       <button
         name="managerMenu"
         (click)="showPopUp = !showPopUp"
         (clickOutside)="showPopUp = false"
         aria-label="search"
-        class="btn animated pop-up-button"
+        class="animated header__sidebar-button"
       >
-        <fa-icon
-          class="custom-icon-pop-up"
-          [icon]="faEllipsisVertical"
-        ></fa-icon>
-        <div class="pop-up-container-small" *ngIf="showPopUp">
-          <span class="pop-up-title">{{ "HEADER.IDIOMA" | translate }}</span>
-          <div class="items-languages">
-            <div
-              class="language"
-              (click)="changeLanguage(language.value)"
-              *ngFor="let language of languages"
-            >
-              <img
-                src="{{ '../../../../../assets/' + language.flag + '.png' }}"
-                alt=""
-              />
-              <span class="text-language">{{ language.text | translate }}</span>
-            </div>
-          </div>
-          <span class="pop-up-title">{{ "HEADER.CONTACTO" | translate }}</span>
-          <button
-            class="button btn-contact is-outlined small-contact"
-            (click)="goTo('contact')"
-          >
-            {{ "HEADER.DECIR_HOLA" | translate }}
-          </button>
-        </div>
+        <img
+          src="{{
+            '../../../../../assets/' +
+              (showPopUp ? 'close-menu' : 'menu') +
+              '.svg'
+          }}"
+        />
       </button>
     </div>
     <div class="header__nav">
@@ -63,7 +43,7 @@
         <div class="header__pop-up_language">
           <div class="items-languages">
             <div
-              class="header__language"
+              class="header__language-item"
               (click)="changeLanguage(language.value)"
               *ngFor="let language of languages"
             >
@@ -83,6 +63,29 @@
           </a>
         </li>
       </ul>
+    </div>
+    <div class="header__pop-up-container-small" *ngIf="showPopUp">
+      <span class="pop-up-title">{{ "HEADER.IDIOMA" | translate }}</span>
+      <div class="items-languages">
+        <div
+          class="language"
+          (click)="changeLanguage(language.value)"
+          *ngFor="let language of languages"
+        >
+          <img
+            src="{{ '../../../../../assets/' + language.flag + '.png' }}"
+            alt=""
+          />
+          <span class="text-language">{{ language.text | translate }}</span>
+        </div>
+      </div>
+      <span class="pop-up-title">{{ "HEADER.CONTACTO" | translate }}</span>
+      <button
+        class="button btn-contact is-outlined small-contact"
+        (click)="goTo('contact')"
+      >
+        {{ "HEADER.DECIR_HOLA" | translate }}
+      </button>
     </div>
   </nav>
 </header>
