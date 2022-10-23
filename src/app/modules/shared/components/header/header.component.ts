@@ -58,12 +58,14 @@ export class HeaderComponent implements OnInit {
     {
       description: 'home'
     },
-
     {
       description: 'about'
     },
     {
       description: 'Projects'
+    },
+    {
+      description: 'reviews'
     },
     {
       description: 'contact'
