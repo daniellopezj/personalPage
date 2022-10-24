@@ -1,12 +1,9 @@
 <section #recomendations class="reviews">
   <div class="main-container">
-    <div class="container__title container__title--transform-margin">
-      <h1 class="title">{{ "RECOMMENDATIONS.TITULO" | translate }}</h1>
-      <span class="subtitle">
-        {{ "RECOMMENDATIONS.DESCRIPCION" | translate }}
-      </span>
-    </div>
-
+    <app-section-title
+      [title]="'RECOMMENDATIONS.TITULO'"
+      [subTitle]="'RECOMMENDATIONS.DESCRIPCION'"
+    ></app-section-title>
     <div class="reviews__content">
       <div #testimonyComponent>
         <app-testimony [testimony]="currentTestimony"> </app-testimony>

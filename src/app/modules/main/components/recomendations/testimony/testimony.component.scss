@@ -10,7 +10,7 @@
 }
 
 .testimony__content {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   color: #666;
   margin: 2rem 0;
@@ -28,23 +28,20 @@
 }
 
 .testimony__name {
-  font-weight: bolder ;
-  font-size: 1.1rem;
+  font-weight: bolder;
+  font-size: 1.2rem;
   line-height: 1.7;
 }
 
 .testimony__proffesion {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   color: #666;
 }
 
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
-  .description {
-    font-size: 1rem;
-    font-weight: initial;
-  }
+
 }
 
 //tablet
