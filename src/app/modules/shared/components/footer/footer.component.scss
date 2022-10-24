@@ -78,62 +78,32 @@
 
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
-  .container-start-project {
-    padding: 1.5rem 1.25rem;
-    margin-top: -7rem;
-  }
-  .start-project {
-    flex-direction: column;
-    span {
-      font-size: 0.9rem;
-    }
-
-    button {
-      font-size: 1rem;
-    }
+  .footer {
+    padding: 3rem 0 2rem 0;
   }
 
-  .item-start-project {
+  .footer__container {
+    flex-direction: column-reverse;
     margin-bottom: 1rem;
   }
-  .title-start-project {
+  .footer__content {
+    max-width: 100%;
+    margin-top: 3rem;
+  }
+  .footer__content-title {
+    margin-bottom: 1rem;
+  }
+
+  .footer__content-title,
+  .footer__social-title {
     font-size: 1.3rem;
   }
-  .custom-logo {
-    height: 50px;
-    width: 50px;
-  }
-  .section {
-    padding: 3.5rem 1.5rem;
-  }
-  .motivation-text {
-    h1 {
-      font-size: 1.3rem;
-    }
-  }
-  .item-link {
-    margin-bottom: 7px;
-  }
+
 }
 
 //tablet
 @media print,
   screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
-  .title-start-project {
-    font-size: 1.5rem;
-  }
-  .start-project {
-    span {
-      font-size: 0.9rem;
-    }
-
-    button {
-      font-size: 1rem;
-    }
-  }
-  .container-start-project {
-    padding: 2.5rem 1.25rem;
-  }
 }
 
 //desktop
