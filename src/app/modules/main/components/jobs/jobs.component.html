@@ -1,22 +1,19 @@
 <section id="projects" class="projects">
   <div class="main-container">
-    <div class="container__title">
-      <h1 class="title">Projects</h1>
-      <span class="subtitle">
-        Here you will find some of the personal and clients projects that I
-        created with each project containing its own case study
-      </span>
-    </div>
+    <app-section-title
+      [title]="'Projects'"
+      [subTitle]="
+        'Here you will find some of the personal and clients projects that I
+    created with each project containing its own case study'
+      "
+    ></app-section-title>
     <div class="projects__content">
       <div class="projects__row" *ngFor="let item of jobs">
         <iframe
           class="projects__video"
-          width="560"
-          height="315"
           src="https://www.youtube.com/embed/-eH2gCGHcGs"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
         <div class="projects__details">
