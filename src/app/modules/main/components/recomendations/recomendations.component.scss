@@ -10,6 +10,7 @@
   margin: 0 auto;
   border-radius: 12px;
   max-width: 700px;
+  margin-top: -2rem;
 }
 
 .reviews__controls {
@@ -29,7 +30,7 @@
   transition: background-color 0.6s ease;
 }
 
-.container__title--transform-margin{
+.container__title--transform-margin {
   margin-bottom: 4rem;
 }
 
@@ -60,16 +61,9 @@
 
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
-  .container-recomendations {
-    padding: 3rem 1.5rem;
-  }
-  .title {
-    font-size: 1.3rem !important;
-    font-weight: bold;
-  }
-  .description {
-    font-size: 1rem;
-    font-weight: initial;
+  .reviews {
+    padding: 7rem 0;
+    background-color: #fafafa;
   }
   .reviews__dot {
     padding: 2px;

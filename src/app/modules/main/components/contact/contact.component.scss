@@ -1,6 +1,5 @@
 @import "./src/shared.scss";
 
-
 .contact {
   padding: 7rem 0;
   display: flex;
@@ -12,14 +11,35 @@
   background-position: center;
 }
 
-.contact__form{
+.contact__form {
   box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
   background: #fff;
   padding: 4rem;
   margin-top: 2rem;
-  max-width: 45rem;
+  max-width: 75%;
   text-align: right;
   width: 95%;
   border-radius: 5px;
   margin: 5rem auto 0 auto;
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .contact__form {
+    max-width: 95%;
+    padding: 0.5rem;
+  }
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+  .contact__form {
+    padding: 2rem;
+    max-width: 85%;
+  }
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
 }

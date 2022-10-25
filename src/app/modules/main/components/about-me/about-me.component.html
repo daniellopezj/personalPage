@@ -1,11 +1,9 @@
 <section id="about" class="about">
   <div class="main-container">
-    <div class="container__title">
-      <h1 class="title">{{ "ABOUT_ME.TITULO" | translate }}</h1>
-      <span class="subtitle">
-        {{ "ABOUT_ME.DESCRIPCION" | translate }}
-      </span>
-    </div>
+    <app-section-title
+      [title]="'ABOUT_ME.TITULO'"
+      [subTitle]="'ABOUT_ME.DESCRIPCION'"
+    ></app-section-title>
     <div class="about__content">
       <div class="about__me">
         <h1 class="second-title">Get to know me!</h1>
@@ -33,7 +31,6 @@
           <a href="./#project" class="btn about__me-contact"> Projects </a>
         </div>
       </div>
-
       <div class="about__skills">
         <h1 class="second-title">My Technical Skills!</h1>
         <div class="skills">
@@ -41,12 +38,6 @@
             {{ skill | translate }}
           </div>
         </div>
-        <!-- <h1 class="second-title about__second-title--margin">Human warmth!</h1>
-        <div class="skills">
-          <div class="skills__skill" *ngFor="let skill of humanSkills">
-            {{ skill | translate }}
-          </div>
-        </div> -->
       </div>
     </div>
   </div>

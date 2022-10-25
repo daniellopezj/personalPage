@@ -8,6 +8,7 @@ import { ValidateControlComponent } from '@/app/components/base-components/valid
 import { LoadingBtnDirective } from './directives/loading-btn.directive';
 import { TranslateModule } from '@ngx-translate/core';
 import { ClickOutSideDirective } from './directives/click-out-side.directive';
+import { SectionTitleComponent } from './components/section-title/section-title.component';
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -15,6 +16,7 @@ import { ClickOutSideDirective } from './directives/click-out-side.directive';
     ValidateControlComponent,
     LoadingBtnDirective,
     ClickOutSideDirective,
+    SectionTitleComponent,
   ],
   imports: [
     CommonModule,
@@ -27,7 +29,8 @@ import { ClickOutSideDirective } from './directives/click-out-side.directive';
     FooterComponent,
     ValidateControlComponent,
     LoadingBtnDirective,
-    ClickOutSideDirective
+    ClickOutSideDirective,
+    SectionTitleComponent
   ]
 })
 export class SharedModule { }
