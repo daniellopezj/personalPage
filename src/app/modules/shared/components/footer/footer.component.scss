@@ -29,7 +29,12 @@
   margin-bottom: 2rem;
 }
 
-.footer__content-title,
+.footer__social{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__content-title1,
 .footer__social-title {
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -41,6 +46,10 @@
   padding: 7px 12px;
   border-radius: 50%;
   border: 2px solid #ffffff4d;
+  color: white;
+}
+
+.footer__social-email{
   color: white;
 }
 

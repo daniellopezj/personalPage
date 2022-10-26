@@ -6,33 +6,44 @@
     ></app-section-title>
     <div class="about__content">
       <div class="about__me">
-        <h1 class="second-title">Get to know me!</h1>
+        <h1 class="second-title">{{ "ABOUT_ME.CONOCEME" | translate }}</h1>
         <div class="about__me-content">
+          <!-- <p>
+            idea 1: mostrar lo que es mi fuerte. idea 2: mis trabajos con
+            empresas internacionales. idea 3: retos que he resuelto utilizando
+            la tecnologia. idea 4: mis buenos valores y la integracion con
+            equipos
+          </p> -->
           <p>
-            I'm a Frontend Web Developer building the Front-end of Websites and
-            Web Applications that leads to the success of the overall product.
-            Check out some of my work in the Projects section.
+            Soy un desarrollador fullStack con solidos conocimientos en
+            lenguajes de programación JavaScript y TypeScript.
           </p>
           <p>
-            I also like sharing content related to the stuff that I have learned
-            over the years in Web Development so it can help other people of the
-            Dev Community. Feel free to Connect or Follow me on my Linkedin
-            where I post useful content related to Web Development and
-            Programming
+            He participado en proyectos retadores para empresas de diferentes
+            países, lo cual me ha permitido consolidar mis conocimientos
+            técnicos y mejorar en la solución de problemas reales mediante la
+            tecnologías.
           </p>
           <p>
-            I'm open to Job opportunities where I can contribute, learn and
-            grow. If you have a good opportunity that matches my skills and
-            experience then don't hesitate to contact me.
+            Me motiva a aprender dia a dia las
+            y he tenido la oportunidad de encontrar personas talentosas que han
+            contribuido a mi crecimiento profesional.
+          </p>
+          <p>
+            Me motivan los nuevos desafios y poder conocer personas expertas en
+            su tema.... .
           </p>
         </div>
-
         <div>
-          <a href="./#project" class="btn about__me-contact"> Projects </a>
+          <a href="./#project" class="btn about__me-contact">
+            {{ "HEADER.PROYECTOS" | translate }}
+          </a>
         </div>
       </div>
       <div class="about__skills">
-        <h1 class="second-title">My Technical Skills!</h1>
+        <h1 class="second-title">
+          {{ "ABOUT_ME.HABILIDADES_TECNICAS" | translate }}
+        </h1>
         <div class="skills">
           <div class="skills__skill" *ngFor="let skill of technicalSkills">
             {{ skill | translate }}

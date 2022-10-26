@@ -56,19 +56,19 @@ export class HeaderComponent implements OnInit {
 
   public navList = [
     {
-      description: 'home'
+      description: 'HEADER.INICIO'
     },
     {
-      description: 'about'
+      description: 'HEADER.SOBRE_MI'
     },
     {
-      description: 'Projects'
+      description: 'HEADER.PROYECTOS'
     },
     {
-      description: 'reviews'
+      description: 'HEADER.RECOMENDACIONES'
     },
     {
-      description: 'contact'
+      description: 'HEADER.CONTACTO'
     },
 
   ]
