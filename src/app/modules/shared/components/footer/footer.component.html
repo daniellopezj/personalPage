@@ -12,15 +12,20 @@
       </div>
       <div class="footer__social">
         <h1 class="footer__social-title">Social</h1>
-        <a
-          class="footer__social-link"
-          *ngFor="let item of controls"
-          [href]="item.link"
-          target="_blank"
-          [attr.aria-label]="item.name"
-        >
-          <fa-icon [icon]="item.icon"></fa-icon>
-        </a>
+        <!-- <a class="footer__social-email" href="mailto:daniellopezj0327@gmail.com"
+          >daniellopezj0327@gmail.com</a
+        > -->
+        <div>
+          <a
+            class="footer__social-link"
+            *ngFor="let item of controls"
+            [href]="item.link"
+            target="_blank"
+            [attr.aria-label]="item.name"
+          >
+            <fa-icon [icon]="item.icon"></fa-icon>
+          </a>
+        </div>
       </div>
     </div>
     <div class="footer__last-line">
