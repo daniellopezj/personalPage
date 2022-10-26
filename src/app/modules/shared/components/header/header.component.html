@@ -85,7 +85,7 @@
   <ul class="header__nav-list">
     <li *ngFor="let item of list" class="header__item-list">
       <a class="header__link" [href]="'/'">
-        {{ item.description }}
+        {{ item.description | translate }}
       </a>
     </li>
   </ul>

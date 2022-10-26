@@ -4,17 +4,21 @@
     "IDIOMA_ESPANOL": "Español"
   },
   "HEADER": {
-    "IDIOMA":"Idioma",
-    "CONTACTO":"Contacto",
-    "DECIR_HOLA": "Decir Hola"
+    "INICIO": "Inicio",
+    "CONTACTO": "Contacto",
+    "SOBRE_MI": "Sobre mí",
+    "RECOMENDACIONES": "Testimonios",
+    "PROYECTOS": "Proyectos"
   },
   "MAIN_VIEW": {
     "TITULO": "hey, Soy Daniel López",
-    "DESCRIPCION": "A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
+    "DESCRIPCION": "Desarrollador Full stack, con mas de 3 años de experiencia en el mundo de la programación."
   },
   "ABOUT_ME": {
-    "TITULO": "About me",
-    "DESCRIPCION": "Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology"
+    "TITULO": "Sobre mí",
+    "DESCRIPCION": "Conoce mis habilidades tecnicas y los valores que me caracterizan.",
+    "CONOCEME": "Conoceme!",
+    "HABILIDADES_TECNICAS":"Habilidades técnicas"
   },
   "SKILLS": {
     "ITEM1": {
@@ -78,20 +82,20 @@
     "SUBTITULO": "¿Interesada en colaborar conmigo?",
     "DESCRIPCION": "Siempre estoy abierto a conversar sobre nuevos proyectos de desarrollo u oportunidades de asociación.",
     "INICIAR_CONVERSACION": "Iniciar una conversación",
-    "EMPRESA1":{
-      "DESCRIPCION":"Consultora Española que ayuda a las compañías a hacer viable su Plan Estratégico, transformando su modelo actual mediante buenas prácticas, tecnología (herramientas) y control de gestión (analítica)."
+    "EMPRESA1": {
+      "DESCRIPCION": "Consultora Española que ayuda a las compañías a hacer viable su Plan Estratégico, transformando su modelo actual mediante buenas prácticas, tecnología (herramientas) y control de gestión (analítica)."
     },
-    "EMPRESA2":{
-      "DESCRIPCION":"Empresa creadora de multimedia implementando tecnologías XR. Tuve la oportunidad de contribuir al proyecto del METAVERSO para uno de sus principales clientes. Algunos de sus clientes son: Audi, BMW, cupra, ford..."
+    "EMPRESA2": {
+      "DESCRIPCION": "Empresa creadora de multimedia implementando tecnologías XR. Tuve la oportunidad de contribuir al proyecto del METAVERSO para uno de sus principales clientes. Algunos de sus clientes son: Audi, BMW, cupra, ford..."
     },
-    "EMPRESA3":{
-      "DESCRIPCION":"Consultora presente en 8 países y con operaciones comerciales en más de 30, mantenemos un ecosistema global de partners como modelo de innovación general y cooperativo que nos permite el desarrollo de iniciativas estratégicas en conjunto."
+    "EMPRESA3": {
+      "DESCRIPCION": "Consultora presente en 8 países y con operaciones comerciales en más de 30, mantenemos un ecosistema global de partners como modelo de innovación general y cooperativo que nos permite el desarrollo de iniciativas estratégicas en conjunto."
     },
-    "EMPRESA4":{
-      "DESCRIPCION":"Empresa Mexicana dedicada a la comercialización de tours a nivel mundial, permitiendo vivir experiencias locales a sus viajeros en cada destino visitado. Contribuí al desarrollo de su plataforma y la integración de su módulo de venta de vuelos."
+    "EMPRESA4": {
+      "DESCRIPCION": "Empresa Mexicana dedicada a la comercialización de tours a nivel mundial, permitiendo vivir experiencias locales a sus viajeros en cada destino visitado. Contribuí al desarrollo de su plataforma y la integración de su módulo de venta de vuelos."
     },
-    "EMPRESA5":{
-      "DESCRIPCION":"Con 40 años de experiencia, Asitur es la empresa líder por volumen gestionado en la prestación de servicios de asistencia y gestión de siniestros para el mercado asegurador tanto para carretera como para el hogar."
+    "EMPRESA5": {
+      "DESCRIPCION": "Con 40 años de experiencia, Asitur es la empresa líder por volumen gestionado en la prestación de servicios de asistencia y gestión de siniestros para el mercado asegurador tanto para carretera como para el hogar."
     }
   },
   "RECOMMENDATIONS": {
