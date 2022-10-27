@@ -15,10 +15,6 @@
   flex-direction: column;
 }
 
-.about__second-title--margin {
-  margin-top: 2rem;
-}
-
 .about__me-content {
   display: flex;
   flex-direction: column;
@@ -30,6 +26,10 @@
 .about__me-contact {
   padding: 1rem 2.5rem;
   font-size: 1.2rem;
+}
+
+.about__me-paragraph{
+  margin-top: 0;
 }
 
 .skills {
