@@ -18,7 +18,7 @@
     "TITULO": "Sobre mí",
     "DESCRIPCION": "Conoce mis habilidades tecnicas y los valores que me caracterizan.",
     "CONOCEME": "Conoceme!",
-    "HABILIDADES_TECNICAS":"Habilidades técnicas"
+    "HABILIDADES_TECNICAS": "Habilidades técnicas"
   },
   "SKILLS": {
     "ITEM1": {
@@ -54,50 +54,24 @@
   },
   "JOBS": {
     "TITULO": "Mi trabajo reciente",
-    "DESCRIPCION": "Aquí hay algunos proyectos de desarrollo en los que he trabajado ¿Quieres ver más?",
+    "DESCRIPCION": "Aquí hay algunos proyectos de software en los que he participado",
     "VER_GITHUB": "ver github",
     "VER_VIDEO": "Ver video",
     "VISITAR_WEB": "Visitar sitio web",
     "TRABAJO1": {
-      "DESCRIPCION": "Plataforma de venta de tours a nivel mundial"
+      "DESCRIPCION": "En la aseguradora Española, Asitur. Era necesario migrar una aplicación de visual basic a Vue y C# utilizando ingeniería inversa. Fue necesario crear un ambiente de trabajo similar al de una aplicación de escrito en el navegador."
     },
     "TRABAJO2": {
-      "DESCRIPCION": "Manejo de inventarios para empresas"
+      "DESCRIPCION": "La empresa Mexicana, Mochileros. Dedicada a la comercialización de tours a nivel mundial. requeria desarrollar una plataforma web en la cual publicar sus servicios, la cual debia contar con sistemas de geolocalización e integración con pasarelas de pagos. Ademas, un panel de control en el cual se gestionara la información publicada en la plataforma web."
     },
     "TRABAJO3": {
-      "DESCRIPCION": "Plataforma de venta de seguros a nivel Europeo"
+      "DESCRIPCION": "Integración de la API sabre. Esta api proporciona toda la información para la comercialización de vuelos (precios, horarios, escalas, etc). Fue integrada con la plataforma web de la empresa Mexicana, Mochileros."
     },
     "TRABAJO4": {
-      "DESCRIPCION": "Aplicación para venta de vuelos. Integración con 'sabre'"
-    },
-    "TRABAJO5": {
-      "DESCRIPCION": "Metaverso para autos Cupra"
-    },
-    "TRABAJO6": {
-      "DESCRIPCION": "Administración de tareas para empresas"
+      "DESCRIPCION": "Este proyecto es una página personal desarrollada en Angular, la cual puede ser utilizada por cualquier persona que desee tener un sitio web. es totalmente gratis. El repositorio lo encuentras en mi github"
     }
   },
-  "COLLABORATIONS": {
-    "TITULO": "Estoy orgulloso de haber colaborado con algunas compañías increíbles.",
-    "SUBTITULO": "¿Interesada en colaborar conmigo?",
-    "DESCRIPCION": "Siempre estoy abierto a conversar sobre nuevos proyectos de desarrollo u oportunidades de asociación.",
-    "INICIAR_CONVERSACION": "Iniciar una conversación",
-    "EMPRESA1": {
-      "DESCRIPCION": "Consultora Española que ayuda a las compañías a hacer viable su Plan Estratégico, transformando su modelo actual mediante buenas prácticas, tecnología (herramientas) y control de gestión (analítica)."
-    },
-    "EMPRESA2": {
-      "DESCRIPCION": "Empresa creadora de multimedia implementando tecnologías XR. Tuve la oportunidad de contribuir al proyecto del METAVERSO para uno de sus principales clientes. Algunos de sus clientes son: Audi, BMW, cupra, ford..."
-    },
-    "EMPRESA3": {
-      "DESCRIPCION": "Consultora presente en 8 países y con operaciones comerciales en más de 30, mantenemos un ecosistema global de partners como modelo de innovación general y cooperativo que nos permite el desarrollo de iniciativas estratégicas en conjunto."
-    },
-    "EMPRESA4": {
-      "DESCRIPCION": "Empresa Mexicana dedicada a la comercialización de tours a nivel mundial, permitiendo vivir experiencias locales a sus viajeros en cada destino visitado. Contribuí al desarrollo de su plataforma y la integración de su módulo de venta de vuelos."
-    },
-    "EMPRESA5": {
-      "DESCRIPCION": "Con 40 años de experiencia, Asitur es la empresa líder por volumen gestionado en la prestación de servicios de asistencia y gestión de siniestros para el mercado asegurador tanto para carretera como para el hogar."
-    }
-  },
+
   "RECOMMENDATIONS": {
     "TITULO": "Testimonios",
     "DESCRIPCION": "Las personas con las que he trabajado han dicho algunas cosas bonitas...",
@@ -117,9 +91,6 @@
     "MOTIVACION": "Viviendo, aprendiendo y mejorando día a día.",
     "CREADO_POR": "Creado por mí",
     "CREADO_CON": "Hecho con"
-  },
-  "HEADER_CONTACT": {
-    "TITULO": "Gracias por tomar el tiempo para comunicarte. ¿Cómo puedo ayudarte hoy?"
   },
   "FORM_CONTACT": {
     "NOMBRE": "Nombre",
