@@ -5,13 +5,12 @@
         <h1 class="footer__content-title">Daniel lópez</h1>
 
         <span class="footer__content-description">
-          RAM MAHESHWARI A Frontend focused Web Developer building the Frontend
-          of Websites and Web Applications that leads to the success of the
-          overall product
+          {{ "FOOTER.DESCRIPCION" | translate }}
+
         </span>
       </div>
       <div class="footer__social">
-        <h1 class="footer__social-title">Social</h1>
+        <h1 class="footer__social-title">{{ "FOOTER.SOCIAL" | translate }}</h1>
         <!-- <a class="footer__social-email" href="mailto:daniellopezj0327@gmail.com"
           >daniellopezj0327@gmail.com</a
         > -->
@@ -30,7 +29,8 @@
     </div>
     <div class="footer__last-line">
       <div class="footer__copy-right">
-        &copy; Copyright 2022, Made by
+        &copy; Copyright 2022,
+        <span> {{ "FOOTER.CREADO_POR" | translate }}</span>
         <a class="footer__personal-link" href="/" target="_blank">
           Daniel López
         </a>

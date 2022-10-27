@@ -17,43 +17,12 @@
   "ABOUT_ME": {
     "TITULO": "Sobre mí",
     "DESCRIPCION": "Conoce mis habilidades tecnicas y los valores que me caracterizan.",
+    "PARAGRAFO_1": " Soy un desarrollador fullStack con sólidos conocimientos en los    lenguajes <span class='paragraph-background'>JavaScript</span> y <span class='paragraph-background'>TypeScript</span> .",
     "CONOCEME": "Conoceme!",
     "HABILIDADES_TECNICAS": "Habilidades técnicas"
   },
-  "SKILLS": {
-    "ITEM1": {
-      "TITULO1": "Desarrollador Frontend",
-      "DESCRIPCION1": "Me gusta codificar desde cero y poder construir grandes soluciones para cualquier persona en el mundo",
-      "SUBTITULO1": "Disfruto desarrollar:",
-      "SUBTITULO2": "Especialidades"
-    },
-    "ITEM2": {
-      "TITULO1": "Desarrollador Backend",
-      "DESCRIPCION1": "Valoro la elaboración de código pensando en su mantenibilidad y aplicando patrones de diseño.",
-      "SUBTITULO1": "Me gusta pensar en:",
-      "DESCRIPCION2": "Seguridad, escalabilidad, disponibilidad.",
-      "SUBTITULO2": "Especialidades",
-      "HERRAMIENTA1": "Microservicios"
-    },
-    "ITEM3": {
-      "TITULO1": "Calidez Humana",
-      "DESCRIPCION1": "Para crecer en el mundo del desarrollo, además de los conocimientos técnicos es importante la calidad humana.",
-      "SUBTITULO1": "Me identifico con:",
-      "DESCRIPCION2": "Disciplina, organización, compromiso.",
-      "SUBTITULO2": "Habilidades generales:",
-      "HERRAMIENTA1": "Respeto",
-      "HERRAMIENTA2": "Deseo de aprender",
-      "HERRAMIENTA3": "Comunicación",
-      "HERRAMIENTA4": "Gestión del tiempo",
-      "HERRAMIENTA5": "Inteligencia emocional",
-      "HERRAMIENTA6": "Adaptación",
-      "HERRAMIENTA7": "Empatía",
-      "HERRAMIENTA8": "Innovación",
-      "HERRAMIENTA9": "Liderazgo"
-    }
-  },
   "JOBS": {
-    "TITULO": "Mi trabajo reciente",
+    "TITULO": "Mi trabajo reciente  <span> hola </span>",
     "DESCRIPCION": "Aquí hay algunos proyectos de software en los que he participado",
     "VER_GITHUB": "ver github",
     "VER_VIDEO": "Ver video",
@@ -85,12 +54,13 @@
     }
   },
   "FOOTER": {
-    "INICIAR_PROYECTO": "Iniciar un proyecto",
-    "ENCONTRARNOS": "¿Interesado en trabajar juntos? Deberíamos reunirnos y conversar. Yo compro el café.",
-    "HAGAMOSLO": "Hagámoslo",
-    "MOTIVACION": "Viviendo, aprendiendo y mejorando día a día.",
-    "CREADO_POR": "Creado por mí",
+    "SOCIAL": "SOCIAL",
+    "DESCRIPCION": "Un desarrollador de software, con el único propósito de servir a la comunidad y aprender constantemente.",
+    "CREADO_POR": "Creado por ",
     "CREADO_CON": "Hecho con"
+  },
+  "CONTACT": {
+    "DESCRIPCION": "Siempre estoy dispuesto a enfrentarme a nuevos desafíos. Cuéntame el tuyo."
   },
   "FORM_CONTACT": {
     "NOMBRE": "Nombre",

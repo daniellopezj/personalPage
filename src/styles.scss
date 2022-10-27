@@ -83,6 +83,15 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
+.paragraph-strong {
+  font-weight: bold;
+}
+.paragraph-background {
+  font-weight: bold;
+  background-color: $base-color;
+  padding: 0 1px;
+}
+
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
   .content-view {
