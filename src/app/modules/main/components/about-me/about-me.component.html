@@ -9,31 +9,50 @@
         <h1 class="second-title">{{ "ABOUT_ME.CONOCEME" | translate }}</h1>
         <div class="about__me-content">
           <p class="about__me-paragraph">
-            Soy un desarrollador fullStack con sólidos conocimientos en
-            desarrollo de software, principalmente en lenguajes JavaScript y
-            TypeScript.
+            Soy un desarrollador fullStack con sólidos conocimientos en los
+            lenguajes
+            <span class="about__me-paragraph-background">JavaScript</span> y
+            <span class="about__me-paragraph-background">TypeScript</span> .
           </p>
           <p class="about__me-paragraph">
-            He desarrollado plataformas web con tecnologías frontend como
-            Angular, React, Vue y tecnologías backend como Node js y express,
-            integradas con bases de datos No sql como mongo db e implementando
-            arquitecturas AWS.
+            He desarrollado plataformas web con tecnologías
+            <span class="about__me-paragraph-background"> frontend</span> como
+            <span class="about__me-paragraph-strong">
+              Angular, React, Vue
+            </span>
+            y tecnologías
+            <span class="about__me-paragraph-background"> backend</span> como lo
+            son <span class="about__me-paragraph-strong"> Node js </span> y
+            <span class="about__me-paragraph-strong"> express</span>, integradas
+            con bases de datos
+            <span class="about__me-paragraph-strong"> No sql </span> como
+            <span class="about__me-paragraph-strong">mongo db</span> e
+            implementando arquitecturas
+            <span class="about__me-paragraph-strong"> AWS</span>.
           </p>
           <p class="about__me-paragraph">
             En mi carrera, he participado en proyectos retadores para empresas
-            de diferentes países, lo cual me ha permitido consolidar mis
-            conocimientos técnicos y mejorar en la solución de problemas reales
+            de
+            <span class="about__me-paragraph-strong"> diferentes países </span>,
+            lo cual me ha permitido consolidar mis conocimientos técnicos y
+            mejorar en la
+            <span class="about__me-paragraph-strong">
+              solución de problemas reales
+            </span>
             mediante la tecnología.
           </p>
           <p class="about__me-paragraph">
             Me motivan los nuevos desafíos y pertenecer a grandes equipos que
-            tengan como objetivo desarrollar productos de calidad, soy una
-            persona amante del cambio, confiable y disciplinada.
+            tengan como objetivo desarrollar productos de calidad.
+            <span class="about__me-paragraph-strong">
+              Soy una persona amante del cambio</span
+            >, <span class="about__me-paragraph-strong">confiable</span> y
+            <span class="about__me-paragraph-strong">disciplinada</span>.
           </p>
         </div>
         <div>
           <a href="./#project" class="btn about__me-contact">
-            {{ "HEADER.PROYECTOS" | translate }}
+            {{ "HEADER.CONTACT" | translate }}
           </a>
         </div>
       </div>
@@ -41,11 +60,7 @@
         <h1 class="second-title">
           {{ "ABOUT_ME.HABILIDADES_TECNICAS" | translate }}
         </h1>
-        <div class="skills">
-          <div class="skills__skill" *ngFor="let skill of technicalSkills">
-            {{ skill | translate }}
-          </div>
-        </div>
+        <app-skills [skills]="technicalSkills"></app-skills>
       </div>
     </div>
   </div>

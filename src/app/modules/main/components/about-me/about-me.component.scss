@@ -28,24 +28,18 @@
   font-size: 1.2rem;
 }
 
-.about__me-paragraph{
+.about__me-paragraph {
   margin-top: 0;
 }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.skills__skill {
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1.5rem;
-  font-size: 1.1rem;
-  background: #9993;
-  border-radius: 5px;
-  font-weight: 600;
-  color: #666;
+.about__me-paragraph-strong {
+  font-weight: bold;
+}
+.about__me-paragraph-background {
+  font-weight: bold;
+  background-color: $base-color;
+  padding: 0 1px;
 }
 
 //phone
@@ -65,12 +59,7 @@
     padding: 1rem 2rem;
     font-size: 0.9rem;
   }
-  .skills__skill {
-    padding: 0.5rem 1rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    font-size: 0.9rem;
-  }
+
 }
 
 //tablet
@@ -83,12 +72,7 @@
     gap: 40px;
   }
 
-  .skills__skill {
-    padding: 0.5rem 1rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    font-size: 0.9rem;
-  }
+
 }
 
 //desktop
