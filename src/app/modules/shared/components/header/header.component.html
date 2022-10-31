@@ -84,9 +84,12 @@
 <ng-template #navListTemplate let-list="list">
   <ul class="header__nav-list">
     <li *ngFor="let item of list" class="header__item-list">
-      <a class="header__link" [href]="'/'">
+      <!-- <a class="header__link" [href]="item.link">
         {{ item.description | translate }}
-      </a>
+      </a> -->
+      <button class="header__link" (click)="goTo(item.link)">
+        {{ item.description | translate }}
+      </button>
     </li>
   </ul>
 </ng-template>
