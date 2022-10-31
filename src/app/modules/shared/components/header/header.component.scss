@@ -72,9 +72,12 @@
 
 .header__link {
   cursor: pointer;
+  background-color: white;
+  border: none;
   text-transform: uppercase;
-
   font-weight: 700;
+
+  font-size: 1rem;
 }
 
 .header__link:hover {
@@ -211,6 +214,7 @@
     text-align: end;
   }
   .header__link {
+    background-color: white;
     display: block;
     text-decoration: none;
     padding: 1rem;
@@ -247,73 +251,73 @@
 //tablet
 @media print,
   screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
-    .header__content {
-      padding: 1rem;
-    }
-    .header__container-logo {
-      height: 2.5rem;
-      width: 2.5rem;
-    }
-    .header__sidebar-container {
-      display: initial;
-    }
-    .header__nav {
-      display: none;
-    }
-    .header__title {
-      font-size: 1rem;
-    }
+  .header__content {
+    padding: 1rem;
+  }
+  .header__container-logo {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .header__sidebar-container {
+    display: initial;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__title {
+    font-size: 1rem;
+  }
 
-    .header__sidebar-button {
-      border: none;
-      position: relative;
-      transition: all 0.3s ease;
-      display: flex;
-      background-color: white;
-    }
+  .header__sidebar-button {
+    border: none;
+    position: relative;
+    transition: all 0.3s ease;
+    display: flex;
+    background-color: white;
+  }
 
-    .header__pop-up {
-      display: inline-block;
-    }
-    .header__nav-list {
-      flex-direction: column;
-    }
-    .header__item-list {
-      width: 100%;
-      text-align: end;
-    }
-    .header__link {
-      display: block;
-      text-decoration: none;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #333;
-      text-align: right;
-      border-bottom: 1px solid #eee;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      transition: color 0.3s;
-    }
+  .header__pop-up {
+    display: inline-block;
+  }
+  .header__nav-list {
+    flex-direction: column;
+  }
+  .header__item-list {
+    width: 100%;
+    text-align: end;
+  }
+  .header__link {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s;
+  }
 
-    .header__small-items-languages {
-      display: flex;
-      justify-content: center;
-      text-align: start;
-      padding: 1rem;
-    }
+  .header__small-items-languages {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    padding: 1rem;
+  }
 
-    .header__language {
-      align-items: center;
-    }
+  .header__language {
+    align-items: center;
+  }
 
-    .header__language-small {
-      margin: 0 13px;
-      span {
-        margin: 0 !important;
-        padding: 0 7px !important ;
-      }
+  .header__language-small {
+    margin: 0 13px;
+    span {
+      margin: 0 !important;
+      padding: 0 7px !important ;
     }
+  }
 }
 
 //desktop

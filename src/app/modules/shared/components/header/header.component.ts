@@ -1,11 +1,7 @@
 import { SharedService } from '@/app/services/shared.service';
 import { IfStmt } from '@angular/compiler';
-import {
-  Component,
-  OnInit,
-  HostListener,
-  Input,
-} from '@angular/core';
+import { Component, Inject, PLATFORM_ID, OnInit, Input, } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { DeviceDetectorService } from 'ngx-device-detector';
@@ -56,26 +52,32 @@ export class HeaderComponent implements OnInit {
 
   public navList = [
     {
-      description: 'HEADER.INICIO'
+      description: 'HEADER.INICIO',
+      link: 'mainView'
     },
     {
-      description: 'HEADER.SOBRE_MI'
+      description: 'HEADER.SOBRE_MI',
+      link: 'about'
     },
     {
-      description: 'HEADER.PROYECTOS'
+      description: 'HEADER.PROYECTOS',
+      link: 'projects'
     },
     {
-      description: 'HEADER.RECOMENDACIONES'
+      description: 'HEADER.RECOMENDACIONES',
+      link: 'recomendations'
     },
     {
-      description: 'HEADER.CONTACTO'
+      description: 'HEADER.CONTACTO',
+      link: 'contact'
     },
 
   ]
   constructor(
     private sharedService: SharedService,
     public deviceService: DeviceDetectorService,
-    private router: Router
+    private router: Router,
+    @Inject(PLATFORM_ID) private platformId: string,
   ) { }
 
   ngOnInit(): void {
@@ -98,7 +100,17 @@ export class HeaderComponent implements OnInit {
   }
 
   goTo(route: string) {
-    this.router.navigate([route])
+    if (isPlatformBrowser(this.platformId)) {
+      const element = document.getElementById(route)
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest"
+        });
+      } else {
+        this.router.navigate(['/'])
+      }
+    }
   }
-
 }
