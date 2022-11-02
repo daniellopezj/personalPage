@@ -1,27 +1,68 @@
-# PersonalPage
+# Pagina Personal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+Página persona, desarrollado con ``Angular 14``. cuenta manejo de multiples idiomas, envio de emails y diseño adaptativo.
+## Contenido
+### **- Vista Principal**
+<br>
+<img  width=400 src="src/assets/readme/vista_principal.png" alt="Vista principal">
+<br>
 
-## Development server
+### **- Acerca de**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<br>
+<img  width=400 src="src/assets/readme/acerca_de.png" alt="Acerca de">  
+<br>
 
-## Code scaffolding
+### **- Proyectos**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br>
+<img  width=400 src="src/assets/readme/proyectos.png" alt="Proyectos">
+<br>
 
-## Build
+### **- Recomendaciones**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<br>
+<img  width=400 src="src/assets/readme/testimonios.png" alt="Testimonios"> 
+<br>
+<br> 
 
-## Running unit tests
+## **Contacto**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+<img  width=400 src="src/assets/readme/contacto.png" alt="Contacto">
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### **- Contacto Exitoso**
+<img  width=400 src="src/assets/readme/contacto_exitoso.png" alt="Contacto Exitoso">
+<br>
 
-## Further help
+### **- Pagina No encontrada** 
+<img  width=400 src="src/assets/readme/no_encontrado.png" alt="No encontrado">
+<br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Principales Funcionalidades
+
+## - Multi-Idioma
+
+El sistema utiliza la libreria [ngx-translate](https://github.com/ngx-translate/core). la cual permite manejar multiples idiomas. Para este proyecto se maneja el idioma ingles y español.
+
+### Ubicacion Archivos de Idiomas
+
+```
+src/assets/i18n/
+```
+
+En esta ruta se encuentran dos archivos `en.json` y `es.json` Cada uno contiene todas los textos del sistema en sus respectivos idiomas.
+
+<br>
+
+## - Diseño responsive
+
+El sistema es adaptativo para diferentes dispositivos solamente utilizando `estilos css`.
+
+## - Envio de Correo
+
+El sistema utiliza [emailJs](https://www.emailjs.com/) para recibir todos los correos enviados desde el formulario de contacto.
+<br>
+
+<img  width=400px src="src/assets/readme/contacto.png" alt="contacto">
+<br>
