@@ -34,8 +34,9 @@
 }
 .header__logo {
   cursor: pointer;
-  height: 100%;
-  width: 100%;
+  height: 55px;
+  width: 55px;
+
   border-radius: 50%;
 }
 
@@ -50,7 +51,6 @@
 .header__nav {
   display: flex;
   align-items: center;
-
   color: black;
 }
 
@@ -185,6 +185,11 @@
     height: 2.5rem;
     width: 2.5rem;
   }
+  .header__logo{
+    height: 2.5rem;
+    width: 2.5rem;
+
+  }
   .header__sidebar-container {
     display: initial;
   }
@@ -226,6 +231,8 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: color 0.3s;
+    width: 100%;
+    text-align:end;
   }
 
   .header__small-items-languages {
@@ -255,6 +262,10 @@
     padding: 1rem;
   }
   .header__container-logo {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .header__logo{
     height: 2.5rem;
     width: 2.5rem;
   }
