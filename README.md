@@ -46,8 +46,6 @@ src/assets/i18n/
 
 En esta ruta se encuentran dos archivos `en.json` y `es.json` Cada uno contiene todas los textos del sistema en sus respectivos idiomas.
 
-<br>
-
 ## - Diseño responsive
 
 El sistema es adaptativo para diferentes dispositivos solamente utilizando `estilos css`.
