@@ -38,7 +38,7 @@ export class JobsComponent implements OnInit {
       },
       {
         image: `${this.path}/vuelos-sabre.png`,
-        title: 'Pagina Personal',
+        title: 'JOBS.TRABAJO4.TITULO',
         description: 'JOBS.TRABAJO4.DESCRIPCION',
         video: 'https://www.loom.com/embed/e6d8e206cba3425491ca5f387eff31a1',
         skills: ['Angular', 'git', 'TypeScript', 'Responsive Design', 'Html/css',],

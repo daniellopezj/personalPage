@@ -17,13 +17,13 @@
           mozallowfullscreen
           allowfullscreen
         ></iframe>
-
         <div class="projects__details">
-          <h1 class="second-title">{{ job.title }}</h1>
+          <h1 class="second-title">{{ job.title | translate }}</h1>
           <div class="projects__details-content">
-            <p class="projects__details-paragraph">
-              {{ job.description | translate }}
-            </p>
+            <p
+              class="projects__details-paragraph"
+              [innerHtml]="job.description | translate"
+            ></p>
           </div>
           <app-skills [skills]="job.skills"></app-skills>
         </div>

@@ -92,6 +92,20 @@ textarea {
   padding: 0 1px;
 }
 
+.link-github {
+  cursor: pointer;
+  text-transform: initial;
+  text-decoration: initial;
+  color: #1a8cff;
+  font-weight: 600;
+  white-space: break-spaces;
+}
+
+.link-github:hover {
+  color: #0066cd;
+  text-decoration: underline;
+}
+
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
   .content-view {

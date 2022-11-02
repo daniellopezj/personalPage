@@ -35,8 +35,8 @@ export class AppComponent implements OnInit {
         this.translate.setDefaultLang(currentLanguage)
         return
       }
-      const initialLanguage = window.navigator.language.split('-')[0] || 'es';
-
+      const initialLanguage = 'es';
+      // const initialLanguage = window.navigator.language.split('-')[0] || 'es';
       this.translate.setDefaultLang(initialLanguage.toLowerCase());
       this.translate.use(initialLanguage.toLowerCase());
       this.cookieService.set('languageSelect', initialLanguage, 4);

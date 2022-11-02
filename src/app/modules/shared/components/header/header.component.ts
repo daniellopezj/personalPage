@@ -1,14 +1,10 @@
 import { SharedService } from '@/app/services/shared.service';
-import { IfStmt } from '@angular/compiler';
-import { Component, Inject, PLATFORM_ID, OnInit, Input, } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
-
+import { Component, OnInit, Input, } from '@angular/core';
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 import { DeviceDetectorService } from 'ngx-device-detector';
 import {
   faEllipsisVertical
 } from '@fortawesome/free-solid-svg-icons'
-import { Router } from '@angular/router';
 
 type typeLanguage = {
   value: 'es' | 'en'
@@ -76,8 +72,6 @@ export class HeaderComponent implements OnInit {
   constructor(
     private sharedService: SharedService,
     public deviceService: DeviceDetectorService,
-    private router: Router,
-    @Inject(PLATFORM_ID) private platformId: string,
   ) { }
 
   ngOnInit(): void {
@@ -100,17 +94,6 @@ export class HeaderComponent implements OnInit {
   }
 
   goTo(route: string) {
-    if (isPlatformBrowser(this.platformId)) {
-      const element = document.getElementById(route)
-      if (element) {
-        element.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-          inline: "nearest"
-        });
-      } else {
-        this.router.navigate(['/'])
-      }
-    }
+    this.sharedService.goToSection(route)
   }
 }

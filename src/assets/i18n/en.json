@@ -3,95 +3,43 @@
     "IDIOMA_INGLES": "English",
     "IDIOMA_ESPANOL": "Spanish"
   },
+
   "HEADER": {
-    "IDIOMA":"Language",
-    "CONTACTO":"Contact",
-    "DECIR_HOLA": "Say Hello"
+    "INICIO": "Home",
+    "CONTACTO": "Contact",
+    "SOBRE_MI": "About me",
+    "RECOMENDACIONES": "Testimonials",
+    "PROYECTOS": "Projects"
   },
   "MAIN_VIEW": {
-    "TITULO": "Software developer and freelancer",
-    "DESCRIPCION": "A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
+    "TITULO": "hey, i'm daniel lopez",
+    "DESCRIPCION": "Full stack developer, with more than 3 years of experience in the world of programming."
   },
   "ABOUT_ME": {
-    "TITULO": "Hi, I'm Daniel. Pleased to meet you.",
-    "DESCRIPCION": "Since I started in the world of development I have participated in large projects for more than 3 years, I have worked remotely for agencies from different countries and I have had the opportunity to meet talented people who have contributed to my professional growth. I stand out for my discipline and my commitment to continuous learning, I seek to improve day by day. I love what I do."
-  },
-  "SKILLS": {
-    "ITEM1": {
-      "TITULO1": "Frontend Developer",
-      "DESCRIPCION1": "I like to code from scratch and be able to build great solutions for anyone in the world",
-      "SUBTITULO1": "I enjoy developing:",
-      "SUBTITULO2": "Specialties"
-    },
-    "ITEM2": {
-      "TITULO1": "Backend Developer",
-      "DESCRIPCION1": "I value the elaboration of code considering its maintainability and applying design patterns.",
-      "SUBTITULO1": "I like to think of:",
-      "DESCRIPCION2": "Security, scalability, availability.",
-      "SUBTITULO2": "Specialties",
-      "HERRAMIENTA1": "Microservices"
-    },
-    "ITEM3": {
-      "TITULO1": "Human warmth",
-      "DESCRIPCION1": "To grow in the world of development, in addition to technical knowledge, human quality is important.",
-      "SUBTITULO1": "I identify with:",
-      "DESCRIPCION2": "Discipline, organization, commitment.",
-      "SUBTITULO2": "General skills::",
-      "HERRAMIENTA1": "Respeto por los demas",
-      "HERRAMIENTA2": "Respect for others",
-      "HERRAMIENTA3": "Good communication",
-      "HERRAMIENTA4": "Time management",
-      "HERRAMIENTA5": "Emotional intelligence",
-      "HERRAMIENTA6": "Adaptation to change",
-      "HERRAMIENTA7": "Empathy",
-      "HERRAMIENTA8": "Innovation",
-      "HERRAMIENTA9": "Leadership"
-    }
+    "TITULO": "About me",
+    "DESCRIPCION": "Get to know my technical skills and the values that characterize me.",
+    "PARAGRAFO_1": "I am a fullStack developer with strong knowledge of  <span class='paragraph-background'>JavaScript</span> and <span class='paragraph-background'>TypeScript</span> languages.",
+    "PARAGRAFO_2": "I have developed web platforms with <span class='paragraph-background'> frontend</span> technologies such as <span class='paragraph-strong'> Angular, React, Vue </span>  and <span class='paragraph-background'> backend</span> technologies such as <span class='paragraph-strong'> Node js </span> and  <span class='paragraph-strong'> express</span>, integrated with <span class='paragraph-strong'> No sql </span> databases such as  <span class='paragraph-strong'>mongo db</span> and implementing <span class='paragraph-strong'> AWS</span> architectures.",
+    "PARAGRAFO_3": "In my career, I have participated in challenging projects for companies from <span class='paragraph-strong'> different countries </span>, which has allowed me to consolidate my technical knowledge and improve in solving real problems through technology.",
+    "PARAGRAFO_4": "I am motivated by new challenges and belonging to great teams that aim to develop quality products. <span class='paragraph-strong'> I am a person who loves change</span>, <span class='paragraph-strong'> reliable</span>  and  <span class='paragraph-strong'>disciplined</span> .",
+    "CONOCEME": "know me!",
+    "HABILIDADES_TECNICAS": "Technical skills"
   },
   "JOBS": {
-    "TITULO": "My recent work",
-    "DESCRIPCION": "Here are some development projects I've worked on. Want to see more?",
-    "VER_GITHUB": "see github",
-    "VER_VIDEO": "Watch video",
-    "VISITAR_WEB": "Visit website",
+    "DESCRIPCION": "Here are some software projects I've been involved in",
+
     "TRABAJO1": {
-      "DESCRIPCION": "Worldwide tour sales platform"
+      "DESCRIPCION": "In the Spanish insurer, Asitur. It was necessary to migrate an application from visual basic to  <span class='paragraph-strong'> Vue</span> and C# using  <span class='paragraph-strong'>reverse engineering</span> . It was necessary to create a work environment similar to that of a browser-based application."
     },
     "TRABAJO2": {
-      "DESCRIPCION": "Inventory management for companies"
+      "DESCRIPCION": "The Mexican company, Backpackers. Dedicated to the marketing of tours worldwide. It required developing a web platform in which to publish its services, which had to have  <span class='paragraph-strong'> geolocation systems</span>  and integration with  <span class='paragraph-background'>payment gateways</span>. In addition, a control panel in which the information published on the web platform will be managed."
     },
     "TRABAJO3": {
-      "DESCRIPCION": "Insurance sales platform at European level"
+      "DESCRIPCION": "Saber API integration. This api provides all the information for the commercialization of flights (prices, schedules, stopovers, etc). It was integrated with the web platform of the Mexican company, Backpackers."
     },
     "TRABAJO4": {
-      "DESCRIPCION": "Application for sale of flights. Integration with 'sabre'"
-    },
-    "TRABAJO5": {
-      "DESCRIPCION": "Metaverse for cupra cars"
-    },
-    "TRABAJO6": {
-      "DESCRIPCION": "Business task management"
-    }
-  },
-  "COLLABORATIONS": {
-    "TITULO": "I'm proud to have collaborated with some amazing companies.",
-    "SUBTITULO": "Interested in collaborating with me?",
-    "DESCRIPCION": "I am always open to discuss new development projects or partnership opportunities.",
-    "INICIAR_CONVERSACION": "Start a conversation",
-    "EMPRESA1":{
-      "DESCRIPCION":"Spanish consultancy that helps companies to make their Strategic Plan viable, transforming their current model through good practices, technology (tools) and management control (analytics)."
-    },
-    "EMPRESA2":{
-      "DESCRIPCION":"Multimedia creator company implementing XR technologies. I had the opportunity to contribute to the METAVERSE project for one of its main clients. Some of its clients are: Audi, BMW, cupra, ford..."
-    },
-    "EMPRESA3":{
-      "DESCRIPCION":"Consultant present in 8 countries and with commercial operations in more than 30, we maintain a global ecosystem of partners as a model of general and cooperative innovation that allows us to develop strategic initiatives together."
-    },
-    "EMPRESA4":{
-      "DESCRIPCION":"Mexican company dedicated to the marketing of tours worldwide, allowing its travelers to live local experiences in each destination visited. I contributed to the development of its platform and the integration of its flight sales module."
-    },
-    "EMPRESA5":{
-      "DESCRIPCION":"With 40 years of experience, Asitur is the leading company by managed volume in the provision of assistance and claims management services for the insurance market for both road and home insurance."
+      "TITULO": "Personal Page",
+      "DESCRIPCION": "This project is a personal page developed in Angular, which can be used by anyone who wants to have a website. it's totally free. <a class='link-github' target='_blank' href='https://github.com/dlopez-dev/public-personalPage'>View github</a>"
     }
   },
   "RECOMMENDATIONS": {
@@ -107,15 +55,13 @@
     }
   },
   "FOOTER": {
-    "INICIAR_PROYECTO": "Start a project",
-    "ENCONTRARNOS": "Interested in working together? We should meet and talk. I buy the coffee.",
-    "HAGAMOSLO": "let's do this",
-    "MOTIVACION": "Living, learning and improving day by day.",
-    "CREADO_POR": "created by me",
+    "SOCIAL": "SOCIAL",
+    "DESCRIPCION": "A software developer, with the sole purpose of serving the community and constantly learning.",
+    "CREADO_POR": "Created by",
     "CREADO_CON": "Made with"
   },
-  "HEADER_CONTACT": {
-    "TITULO": "Thank you for taking the time to communicate. How can I help you today?"
+  "CONTACT": {
+    "DESCRIPCION": "I am always ready to face new challenges. Tell me yours."
   },
   "FORM_CONTACT": {
     "NOMBRE": "Name",

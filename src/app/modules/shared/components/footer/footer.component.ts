@@ -14,20 +14,20 @@ export class FooterComponent {
       link: 'https://www.linkedin.com/in/daniel-lopezj/'
     },
     {
-      icon: faTwitter,
-      name: 'twitter',
-      link: 'https://twitter.com/daniellopezj01'
-    },
-    {
       icon: faGithub,
       name: 'hithub',
       link: 'https://github.com/dlopez-dev'
     },
     {
-      icon: faInstagram,
-      name: 'instagram',
-      link: 'https://www.instagram.com/daniellopezzj/'
+      icon: faTwitter,
+      name: 'twitter',
+      link: 'https://twitter.com/daniellopezj01'
     },
+    // {
+    //   icon: faInstagram,
+    //   name: 'instagram',
+    //   link: 'https://www.instagram.com/daniellopezzj/'
+    // },
 
   ]
   constructor(private router: Router) { }

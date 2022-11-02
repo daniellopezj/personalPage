@@ -1,13 +1,14 @@
 <div class="form-contact__container">
   <form [formGroup]="formContact">
     <div class="form-contact__input-row">
-      <label for="name">{{ "FORM_CONTACT.NOMBRE" | translate }}</label>
+      <label for="inputName">{{ "FORM_CONTACT.NOMBRE" | translate }}</label>
       <input
         type="text"
         class="form-control"
         formControlName="name"
         placeholder=""
-        name="name"
+        name="inputName"
+        id="inputName"
       />
       <app-validate-control
         [control]="form['name']"
@@ -15,13 +16,14 @@
       ></app-validate-control>
     </div>
     <div class="form-contact__input-row">
-      <label for="email">{{ "FORM_CONTACT.EMAIL" | translate }}</label>
+      <label for="inputEmail">{{ "FORM_CONTACT.EMAIL" | translate }}</label>
       <input
         formControlName="email"
         type="text"
         class="form-control"
         placeholder=""
-        name="email"
+        name="inputEmail"
+        id="inputEmail"
       />
       <app-validate-control
         [control]="form['email']"
