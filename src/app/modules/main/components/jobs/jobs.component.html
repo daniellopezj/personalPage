@@ -1,4 +1,4 @@
-<section id="projects" class="projects">
+<section id="projects" *ngIf="jobs.length" class="projects">
   <div class="main-container">
     <app-section-title
       [title]="'HEADER.PROYECTOS'"
@@ -13,8 +13,11 @@
           [src]="transformUrl(job.video)"
           title="YouTube video player"
           frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
           allowfullscreen
         ></iframe>
+
         <div class="projects__details">
           <h1 class="second-title">{{ job.title }}</h1>
           <div class="projects__details-content">
