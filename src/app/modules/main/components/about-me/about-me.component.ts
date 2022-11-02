@@ -1,3 +1,4 @@
+import { SharedService } from '@/app/services/shared.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,8 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent {
+  public technicalSkills = ['Angular', 'React', 'Vue', 'TypeScript', 'JavaScript', 'Cypress', 'Jest', 'Git', 'Node js', 'Express', 'AWS', 'Mongo db', 'Redux', 'Rxjs', 'Html/css', 'Responsive design']
 
-  constructor() { }
-  public technicalSkills = ['Angular', 'React', 'Vue','TypeScript','JavaScript', 'Cypress', 'Jest', 'Git', 'Node js', 'Express', 'AWS', 'Mongo db', 'Redux', 'Rxjs', 'Html/css', 'Responsive design']
-  // public humanSkills =['SKILLS.ITEM3.HERRAMIENTA1','SKILLS.ITEM3.HERRAMIENTA3','SKILLS.ITEM3.HERRAMIENTA4','SKILLS.ITEM3.HERRAMIENTA5','SKILLS.ITEM3.HERRAMIENTA6','SKILLS.ITEM3.HERRAMIENTA7','SKILLS.ITEM3.HERRAMIENTA8','SKILLS.ITEM3.HERRAMIENTA9',]
+  constructor(private sharedService: SharedService) { }
+
+  goTo(route: string) {
+    this.sharedService.goToSection(route)
+  }
 }

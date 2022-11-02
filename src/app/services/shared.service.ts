@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { EventEmitter, Inject, Injectable, PLATFORM_ID } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { CookieService } from 'ngx-cookie-service';
@@ -13,6 +14,7 @@ export class SharedService {
     private translate: TranslateService,
     private cookieService: CookieService,
     @Inject(PLATFORM_ID) private platformId: string,
+    private router: Router,
   ) { }
 
   setLanguage(language: 'es' | 'en') {
@@ -35,5 +37,20 @@ export class SharedService {
       }
     }
     return 'en'
+  }
+
+  goToSection(route: string) {
+    if (isPlatformBrowser(this.platformId)) {
+      const element = document.getElementById(route)
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest"
+        });
+      } else {
+        this.router.navigate(['/'])
+      }
+    }
   }
 }

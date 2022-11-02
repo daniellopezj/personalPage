@@ -12,38 +12,35 @@
   },
   "MAIN_VIEW": {
     "TITULO": "hey, Soy Daniel López",
-    "DESCRIPCION": "Desarrollador Full stack, con mas de 3 años de experiencia en el mundo de la programación."
+    "DESCRIPCION": "Desarrollador Full stack, con más de 3 años de experiencia en el mundo de la programación."
   },
   "ABOUT_ME": {
     "TITULO": "Sobre mí",
-    "DESCRIPCION": "Conoce mis habilidades tecnicas y los valores que me caracterizan.",
-    "PARAGRAFO_1": "Soy un desarrollador fullStack con sólidos conocimientos en los    lenguajes <span class='paragraph-background'>JavaScript</span> y <span class='paragraph-background'>TypeScript</span> .",
+    "DESCRIPCION": "Conoce mis habilidades técnicas y los valores que me caracterizan.",
+    "PARAGRAFO_1": "Soy un desarrollador fullStack con sólidos conocimientos en los    lenguajes <span class='paragraph-background'>JavaScript</span> y <span class='paragraph-background'>TypeScript</span>.",
     "PARAGRAFO_2": "He desarrollado plataformas web con tecnologías <span class='paragraph-background'> frontend</span> como <span class='paragraph-strong'> Angular, React, Vue </span> y tecnologías <span class='paragraph-background'> backend</span> como lo son <span class='paragraph-strong'> Node js </span> y <span class='paragraph-strong'> express</span>, integradas con bases de datos <span class='paragraph-strong'> No sql </span> como <span class='paragraph-strong'>mongo db</span> e implementando arquitecturas <span class='paragraph-strong'> AWS</span>.",
-    "PARAGRAFO_3": "En mi carrera, he participado en proyectos retadores para empresas de    <span class='paragraph-strong'> diferentes países </span>, lo cual me ha permitido consolidar mis conocimientos técnicos y mejorar en la <span class='paragraph-strong'> solución de problemas reales</span> mediante la tecnología.",
+    "PARAGRAFO_3": "En mi carrera, he participado en proyectos retadores para empresas de    <span class='paragraph-strong'> diferentes países</span>, lo cual me ha permitido consolidar mis conocimientos técnicos y mejorar en la <span class='paragraph-strong'> solución de problemas reales</span> mediante la tecnología.",
     "PARAGRAFO_4": "Me motivan los nuevos desafíos y pertenecer a grandes equipos que tengan como objetivo desarrollar productos de calidad. <span class='paragraph-strong'> Soy una persona amante del cambio</span>, <span class='paragraph-strong'>confiable</span> y <span class='paragraph-strong'>disciplinada</span>.",
-    "CONOCEME": "Conoceme!",
+    "CONOCEME": "Conóceme!",
     "HABILIDADES_TECNICAS": "Habilidades técnicas"
   },
   "JOBS": {
-    "TITULO": "Mi trabajo reciente  <span> hola </span>",
     "DESCRIPCION": "Aquí hay algunos proyectos de software en los que he participado",
-    "VER_GITHUB": "ver github",
-    "VER_VIDEO": "Ver video",
-    "VISITAR_WEB": "Visitar sitio web",
+
     "TRABAJO1": {
-      "DESCRIPCION": "En la aseguradora Española, Asitur. Era necesario migrar una aplicación de visual basic a Vue y C# utilizando ingeniería inversa. Fue necesario crear un ambiente de trabajo similar al de una aplicación de escrito en el navegador."
+      "DESCRIPCION": "En la aseguradora Española, Asitur. Era necesario migrar una aplicación de visual basic a <span class='paragraph-strong'> Vue </span> y C# utilizando <span class='paragraph-strong'> ingeniería inversa </span>. Fue necesario crear un ambiente de trabajo similar al de una aplicación de escrito en el navegador."
     },
     "TRABAJO2": {
-      "DESCRIPCION": "La empresa Mexicana, Mochileros. Dedicada a la comercialización de tours a nivel mundial. requeria desarrollar una plataforma web en la cual publicar sus servicios, la cual debia contar con sistemas de geolocalización e integración con pasarelas de pagos. Ademas, un panel de control en el cual se gestionara la información publicada en la plataforma web."
+      "DESCRIPCION": "La empresa Mexicana, Mochileros. Dedicada a la comercialización de tours a nivel mundial. Requería desarrollar una plataforma web en la cual publicar sus servicios, la cual debía contar con <span class='paragraph-strong'> sistemas de geolocalización</span> e  integración con <span class='paragraph-background'> pasarelas de pagos </span>. Además, un panel de control en el cual se gestionara la información publicada en la plataforma web."
     },
     "TRABAJO3": {
       "DESCRIPCION": "Integración de la API sabre. Esta api proporciona toda la información para la comercialización de vuelos (precios, horarios, escalas, etc). Fue integrada con la plataforma web de la empresa Mexicana, Mochileros."
     },
     "TRABAJO4": {
-      "DESCRIPCION": "Este proyecto es una página personal desarrollada en Angular, la cual puede ser utilizada por cualquier persona que desee tener un sitio web. es totalmente gratis. El repositorio lo encuentras en mi github"
+      "TITULO": "Página Personal",
+      "DESCRIPCION": "Este proyecto es una página personal desarrollada en Angular, la cual puede ser utilizada por cualquier persona que desee tener un sitio web. es totalmente gratis. <a class='link-github' target='_blank' href='https://github.com/dlopez-dev/public-personalPage'>Ver github</a>"
     }
   },
-
   "RECOMMENDATIONS": {
     "TITULO": "Testimonios",
     "DESCRIPCION": "Las personas con las que he trabajado han dicho algunas cosas bonitas...",
