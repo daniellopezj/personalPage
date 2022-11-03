@@ -66,8 +66,7 @@ export class HeaderComponent implements OnInit {
     {
       description: 'HEADER.CONTACTO',
       link: 'contact'
-    },
-
+    }
   ]
   constructor(
     private sharedService: SharedService,
