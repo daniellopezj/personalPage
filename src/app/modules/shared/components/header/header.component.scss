@@ -176,6 +176,11 @@
   }
 }
 
+.header__menu{
+  height: 25px;
+  width: 25px;
+}
+
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
   .header__content {
