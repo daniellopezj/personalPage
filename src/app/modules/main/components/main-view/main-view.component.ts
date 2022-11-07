@@ -19,19 +19,13 @@ export class MainViewComponent {
     {
       icon: faGithub,
       name: 'hithub',
-      link: 'https://github.com/dlopez-dev'
+      link: 'https://github.com/ldani-dev'
     },
     {
       icon: faTwitter,
       name: 'twitter',
       link: 'https://twitter.com/daniellopezj01'
     },
-    // {
-    //   icon: faInstagram,
-    //   name: 'instagram',
-    //   link: 'https://www.instagram.com/daniellopezzj/'
-    // },
-
   ]
 
   constructor(private sharedService: SharedService) { }
