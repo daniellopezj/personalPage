@@ -11,7 +11,7 @@ export class FooterComponent {
     {
       icon: faLinkedinIn,
       name: 'linkedIn',
-      link: 'https://www.linkedin.com/in/daniel-lopezj/'
+      link: 'https://www.linkedin.com/in/dani-dev/'
     },
     {
       icon: faGithub,
