@@ -39,14 +39,6 @@ export class CollaborationsComponent {
       sector: 'Viajes',
       description: 'COLLABORATIONS.EMPRESA4.DESCRIPCION',
     },
-
-    {
-      logo: `${this.path}/asitur.jpg`,
-      link: 'https://asitur.es/',
-      title: 'Asitur',
-      sector: 'Seguros',
-      description: 'COLLABORATIONS.EMPRESA5.DESCRIPCION',
-    },
   ]
   constructor(private router: Router) { }
 
