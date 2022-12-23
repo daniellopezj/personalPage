@@ -16,13 +16,6 @@ export class JobsComponent implements OnInit {
   ngOnInit(): void {
     this.jobs = [
       {
-        image: `${this.path}/asitur.png`,
-        title: 'Asitur',
-        description: 'JOBS.TRABAJO1.DESCRIPCION',
-        video: 'https://www.youtube.com/embed/QiLc951AumY',
-        skills: ['Vue', 'git', 'TypeScript', 'Cypress', 'Pinia', 'IndexedBD', 'Rxjs'],
-      },
-      {
         image: `${this.path}/mochileros.jpg`,
         title: 'Mochileros',
         description: 'JOBS.TRABAJO2.DESCRIPCION',
