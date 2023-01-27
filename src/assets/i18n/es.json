@@ -26,10 +26,6 @@
   },
   "JOBS": {
     "DESCRIPCION": "Aquí hay algunos proyectos de software en los que he participado",
-
-    "TRABAJO1": {
-      "DESCRIPCION": "En la aseguradora Española, Asitur. Era necesario migrar una aplicación de visual basic a <span class='paragraph-strong'> Vue </span> y C# utilizando <span class='paragraph-strong'> ingeniería inversa </span>. Fue necesario crear un ambiente de trabajo similar al de una aplicación de escrito en el navegador."
-    },
     "TRABAJO2": {
       "DESCRIPCION": "La empresa Mexicana, Mochileros. Dedicada a la comercialización de tours a nivel mundial. Requería desarrollar una plataforma web en la cual publicar sus servicios, la cual debía contar con <span class='paragraph-strong'> sistemas de geolocalización</span> e  integración con <span class='paragraph-background'> pasarelas de pagos </span>. Además, un panel de control en el cual se gestionara la información publicada en la plataforma web."
     },
