@@ -28,9 +28,6 @@
   "JOBS": {
     "DESCRIPCION": "Here are some software projects I've been involved in",
 
-    "TRABAJO1": {
-      "DESCRIPCION": "In the Spanish insurer, Asitur. It was necessary to migrate an application from visual basic to  <span class='paragraph-strong'> Vue</span> and C# using  <span class='paragraph-strong'>reverse engineering</span> . It was necessary to create a work environment similar to that of a browser-based application."
-    },
     "TRABAJO2": {
       "DESCRIPCION": "The Mexican company, Backpackers. Dedicated to the marketing of tours worldwide. It required developing a web platform in which to publish its services, which had to have  <span class='paragraph-strong'> geolocation systems</span>  and integration with  <span class='paragraph-background'>payment gateways</span>. In addition, a control panel in which the information published on the web platform will be managed."
     },
