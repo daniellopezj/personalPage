@@ -12,20 +12,6 @@ export class CollaborationsComponent {
   public faMessage = faEnvelope
   public companies: Company[] = [
     {
-      logo: `${this.path}/kiteris.png`,
-      link: 'https://www.kiteris.com/',
-      title: 'Kiteris',
-      sector: 'Consultora',
-      description: 'COLLABORATIONS.EMPRESA1.DESCRIPCION',
-    },
-    {
-      logo: `${this.path}/visyon.jpg`,
-      link: 'https://visyon360.com/',
-      title: 'Vysion 360',
-      sector: 'Multimedia',
-      description: 'COLLABORATIONS.EMPRESA2.DESCRIPCION',
-    },
-    {
       logo: `${this.path}/leanga.jpg`,
       link: 'https://leangasoftware.es/',
       title: 'Leanga Software',
