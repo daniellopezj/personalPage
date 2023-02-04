@@ -1,0 +1,94 @@
+<header class="header">
+  <nav class="header__content">
+    <div class="header__home" (click)="goTo('')">
+      <div class="header__container-logo">
+        <img
+          class="header__logo"
+          src="../../../../../assets/profile.png"
+          alt="logo"
+        />
+      </div>
+      <span class="header__title"> Daniel López</span>
+    </div>
+    <div class="header__sidebar-container">
+      <button
+        name="managerMenu"
+        (click)="showPopUp = !showPopUp"
+        (clickOutside)="showPopUp = false"
+        aria-label="search"
+        class="animated header__sidebar-button"
+      >
+        <img
+        class="header__menu"
+        alt="menu"
+          src="{{
+            '../../../../../assets/' +
+              (showPopUp ? 'close-menu' : 'menu') +
+              '.svg'
+          }}"
+        />
+      </button>
+    </div>
+    <div class="header__nav">
+      <button
+        class="button header__language-button header__language"
+        (mouseover)="hoverLanguage = true"
+        (mouseout)="hoverLanguage = false"
+      >
+        <img
+          src="{{ '../../../../../assets/' + selectLanguage.flag + '.png' }}"
+          alt="{{ selectLanguage.text | translate }}"
+        />
+
+        <span> {{ selectLanguage.text | translate }}</span>
+        <fa-icon [icon]="faAngleDown" class="arrow-icon fade"></fa-icon>
+        <div class="header__pop-up_language">
+          <div class="items-languages">
+            <div
+              class="header__language-item"
+              (click)="changeLanguage(language.value)"
+              *ngFor="let language of languages"
+            >
+              <img
+                src="{{ '../../../../../assets/' + language.flag + '.png' }}"
+                alt=""
+              />
+              <span>{{ language.text | translate }}</span>
+            </div>
+          </div>
+        </div>
+      </button>
+      <ng-container
+        *ngTemplateOutlet="navListTemplate; context: { list: navList }"
+      ></ng-container>
+    </div>
+    <div class="header__pop-up" *ngIf="showPopUp">
+      <ng-container
+        *ngTemplateOutlet="navListTemplate; context: { list: navList }"
+      ></ng-container>
+      <div class="header__small-items-languages">
+        <div
+          class="header__language header__language-small"
+          (click)="changeLanguage(language.value)"
+          *ngFor="let language of languages"
+        >
+          <img
+            src="{{ '../../../../../assets/' + language.flag + '.png' }}"
+            alt=""
+          />
+          <span class="header__link">{{ language.text | translate }}</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<ng-template #navListTemplate let-list="list">
+  <ul class="header__nav-list">
+    <li *ngFor="let item of list" class="header__item-list">
+      <button class="header__link" (click)="goTo(item.link)">
+        {{ item.description | translate }}
+      </button>
+    </li>
+  </ul>
+</ng-template>

@@ -1,0 +1,50 @@
+$base-color: #facf0f;
+$second-color: #5be9b9;
+$white-color: #ffffff;
+$big-max-width: 1200px;
+
+$max-screen-phone: 740px;
+$min-screen-tablet: 740px;
+$max-screen-tablet: 1140px;
+$min-screen-desktop: 600px;
+
+.w-100 {
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+
+.form-control.ng-invalid.ng-dirty {
+  border-color: red !important;
+}
+
+:disabled {
+  opacity: 0.5 !important;
+  cursor: initial;
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  $big-max-width: 100%;
+}
+
+//tablet
+@media print,
+  screen and (max-width: $min-screen-tablet) and (min-width: $max-screen-tablet) {
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}

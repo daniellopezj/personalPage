@@ -1,0 +1,126 @@
+@import "./src/shared.scss";
+
+.main-view__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc),
+    url("./../../../../../assets/background.svg");
+  background-position: center;
+}
+
+.main-view__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 900px;
+  width: 100%;
+}
+
+.main-view__title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.main-view__info {
+  margin: 2rem auto 0 auto;
+  font-size: 1.3rem;
+  max-width: 45rem;
+  display: block;
+  text-align: center;
+  color: #555;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.main-view__social {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.main-view__link:hover {
+  background-color: #facf0f33;
+}
+
+.main-view__link {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.main-view__btn-projects {
+  margin-top: 2.5rem;
+}
+
+.main-view__link-projects {
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .main-view__social {
+    display: none;
+  }
+  .main-view__content {
+    width: 90%;
+  }
+  .main-view__title {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+  .main-view__info {
+    margin: 1rem auto 0 auto;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    color: #555;
+    line-height: 1.6;
+  }
+  .main-view__link-projects {
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+  }
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+  .main-view__content {
+    width: 90%;
+  }
+  .main-view__title {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  .main-view__info {
+    margin: 1rem auto 0 auto;
+    font-size: 1.2rem;
+    max-width: 80%;
+    display: block;
+    text-align: center;
+    color: #555;
+    line-height: 1.6;
+  }
+  .main-view__link-projects {
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+  }
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}

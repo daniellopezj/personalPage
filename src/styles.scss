@@ -1,0 +1,136 @@
+@import "./shared.scss";
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;800&family=Source+Sans+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+html,
+body {
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, button,
+span,
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: initial;
+}
+
+.main-container {
+  max-width: $big-max-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 92%;
+}
+
+.btn {
+  background: $base-color;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  transition: transform 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  outline: none;
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  justify-content: flex-start;
+  padding: calc(0.5em - 1px);
+}
+
+.container__title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7rem;
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.paragraph-strong {
+  font-weight: bold;
+}
+.paragraph-background {
+  font-weight: bold;
+  background-color: $base-color;
+  padding: 0 1px;
+}
+
+.link-github {
+  cursor: pointer;
+  text-transform: initial;
+  text-decoration: initial;
+  color: #1a8cff;
+  font-weight: 600;
+  white-space: break-spaces;
+}
+
+.link-github:hover {
+  color: #0066cd;
+  text-decoration: underline;
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .content-view {
+    padding: 0.5rem;
+  }
+  .container-main-view {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .second-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+  .second-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}

@@ -1,0 +1,73 @@
+@import "./src/shared.scss";
+
+.form-contact__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+label {
+  color: #666;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: left;
+}
+
+.form-contact__input-row {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  color: #333;
+  padding: 1rem;
+  border: 1px solid #ebebeb;
+  font-size: 1.1rem;
+  letter-spacing: 0;
+  background: #f0f0f0;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.container-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.btn-contact {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .btn-contact {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .form-contact__input-row{
+    margin-bottom: 0;
+  }
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+  .container-form {
+    width: 70%;
+  }
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}

@@ -1,0 +1,25 @@
+<section id="recomendations" class="reviews">
+  <div class="main-container">
+    <app-section-title
+      [title]="'RECOMMENDATIONS.TITULO'"
+      [subTitle]="'RECOMMENDATIONS.DESCRIPCION'"
+    ></app-section-title>
+    <div class="reviews__content">
+      <div #testimonyComponent>
+        <app-testimony [testimony]="currentTestimony"> </app-testimony>
+      </div>
+    </div>
+    <div class="reviews__controls">
+      <div
+        class="reviews__container-dot"
+        *ngFor="let item of testimonies; let i = index"
+      >
+        <span
+          (click)="controlDot(i)"
+          class="reviews__dot"
+          [ngClass]="{ 'reviews__dot--active': activeDot === i }"
+        ></span>
+      </div>
+    </div>
+  </div>
+</section>

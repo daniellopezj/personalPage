@@ -1,0 +1,73 @@
+@import "./src/shared.scss";
+
+.about {
+  padding: 7rem 0;
+  background-color: #fafafa;
+}
+
+.about__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+.about__me {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__me-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #666;
+  margin-bottom: 2rem;
+}
+.about__me-contact {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+}
+
+.about__me-paragraph {
+  margin-top: 0;
+}
+
+
+
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .about {
+    padding: 4rem 0;
+  }
+  .about__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .about__me-content {
+    margin-bottom: 0;
+  }
+  .about__me-contact {
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+  }
+
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+  .about {
+    padding: 3rem 0;
+  }
+  .about__content {
+    gap: 40px;
+  }
+
+
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}

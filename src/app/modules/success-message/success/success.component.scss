@@ -1,0 +1,86 @@
+@import "src/shared.scss";
+
+.success__container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to right, #f5f5f5cc, #f5f5f5cc),
+    url("./../../../../assets/background.svg");
+  background-position: center;
+}
+
+.success__content {
+  max-width: 60%;
+  margin: auto;
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.success__title {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+.success__image-email {
+  margin: 2rem 0;
+  max-width: 250px;
+}
+
+.success__container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.success__link {
+  padding:0.8rem 3rem;
+  font-size: 1.3rem;
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .custom-container {
+    margin-top: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .body-success {
+    max-width: 90%;
+    margin-top: 0rem;
+  }
+  .image-send-message {
+    max-width: 200px;
+    margin: 3rem 0;
+  }
+  h4 {
+    margin-top: 0;
+    font-weight: initial;
+  }
+  .container-button {
+    margin-top: 2rem;
+  }
+  .btn-contact {
+    padding: 0.8rem 60px;
+  }
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+  .body-success {
+    max-width: 70%;
+    margin-top: 0rem;
+  }
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}

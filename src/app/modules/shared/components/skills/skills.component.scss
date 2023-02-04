@@ -1,0 +1,42 @@
+@import "./src/shared.scss";
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills__skill {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  font-size: 1.1rem;
+  background: #9993;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .skills__skill {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+    .skills__skill {
+      padding: 0.5rem 1rem;
+      margin-bottom: 1rem;
+      margin-right: 1rem;
+      font-size: 0.9rem;
+    }
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}

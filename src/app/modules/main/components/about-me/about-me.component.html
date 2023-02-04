@@ -1,0 +1,38 @@
+<section id="about" class="about">
+  <div class="main-container">
+    <app-section-title
+      [title]="'ABOUT_ME.TITULO'"
+      [subTitle]="'ABOUT_ME.DESCRIPCION'"
+    ></app-section-title>
+    <div class="about__content">
+      <div class="about__me">
+        <h1 class="second-title">{{ "ABOUT_ME.CONOCEME" | translate }}</h1>
+        <div class="about__me-content">
+          <p class="about__me-paragraph">
+            <span [innerHtml]="'ABOUT_ME.PARAGRAFO_1' | translate"></span>
+          </p>
+          <p class="about__me-paragraph">
+            <span [innerHtml]="'ABOUT_ME.PARAGRAFO_2' | translate"></span>
+          </p>
+          <p class="about__me-paragraph">
+            <span [innerHtml]="'ABOUT_ME.PARAGRAFO_3' | translate"></span>
+          </p>
+          <p class="about__me-paragraph">
+            <span [innerHtml]="'ABOUT_ME.PARAGRAFO_4' | translate"></span>
+          </p>
+        </div>
+        <div>
+          <button  (click)="goTo('contact')"  class="btn about__me-contact">
+            {{ "HEADER.CONTACTO" | translate }}
+          </button>
+        </div>
+      </div>
+      <div class="about__skills">
+        <h1 class="second-title">
+          {{ "ABOUT_ME.HABILIDADES_TECNICAS" | translate }}
+        </h1>
+        <app-skills [skills]="technicalSkills"></app-skills>
+      </div>
+    </div>
+  </div>
+</section>

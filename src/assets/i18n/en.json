@@ -1,0 +1,87 @@
+{
+  "GENERAL": {
+    "IDIOMA_INGLES": "English",
+    "IDIOMA_ESPANOL": "Spanish"
+  },
+
+  "HEADER": {
+    "INICIO": "Home",
+    "CONTACTO": "Contact",
+    "SOBRE_MI": "About me",
+    "RECOMENDACIONES": "Testimonials",
+    "PROYECTOS": "Projects"
+  },
+  "MAIN_VIEW": {
+    "TITULO": "hey, i'm daniel lopez",
+    "DESCRIPCION": "Full stack developer, with more than 3 years of experience in the world of programming."
+  },
+  "ABOUT_ME": {
+    "TITULO": "About me",
+    "DESCRIPCION": "Get to know my technical skills and the values that characterize me.",
+    "PARAGRAFO_1": "I am a fullStack developer with strong knowledge of  <span class='paragraph-background'>JavaScript</span> and <span class='paragraph-background'>TypeScript</span> languages.",
+    "PARAGRAFO_2": "I have developed web platforms with <span class='paragraph-background'> frontend</span> technologies such as <span class='paragraph-strong'> Angular, React, Vue </span>  and <span class='paragraph-background'> backend</span> technologies such as <span class='paragraph-strong'> Node js </span> and  <span class='paragraph-strong'> express</span>, integrated with <span class='paragraph-strong'> No sql </span> databases such as  <span class='paragraph-strong'>mongo db</span> and implementing <span class='paragraph-strong'> AWS</span> architectures.",
+    "PARAGRAFO_3": "In my career, I have participated in challenging projects for companies from <span class='paragraph-strong'> different countries </span>, which has allowed me to consolidate my technical knowledge and improve in solving real problems through technology.",
+    "PARAGRAFO_4": "I am motivated by new challenges and belonging to great teams that aim to develop quality products. <span class='paragraph-strong'> I am a person who loves change</span>, <span class='paragraph-strong'> reliable</span>  and  <span class='paragraph-strong'>disciplined</span> .",
+    "CONOCEME": "know me!",
+    "HABILIDADES_TECNICAS": "Technical skills"
+  },
+  "JOBS": {
+    "DESCRIPCION": "Here are some software projects I've been involved in",
+
+    "TRABAJO2": {
+      "DESCRIPCION": "The Mexican company, Backpackers. Dedicated to the marketing of tours worldwide. It required developing a web platform in which to publish its services, which had to have  <span class='paragraph-strong'> geolocation systems</span>  and integration with  <span class='paragraph-background'>payment gateways</span>. In addition, a control panel in which the information published on the web platform will be managed."
+    },
+    "TRABAJO3": {
+      "DESCRIPCION": "Saber API integration. This api provides all the information for the commercialization of flights (prices, schedules, stopovers, etc). It was integrated with the web platform of the Mexican company, Backpackers."
+    },
+    "TRABAJO4": {
+      "TITULO": "Personal Page",
+      "DESCRIPCION": "This project is a personal page developed in Angular, which can be used by anyone who wants to have a website. it's totally free. <a class='link-github' target='_blank' href='https://github.com/ldani-dev/public-personalPage'>View github</a>"
+    }
+  },
+  "RECOMMENDATIONS": {
+    "TITULO": "Testimonials",
+    "DESCRIPCION": "People I've worked with have said some nice things...",
+    "TESTIMONIO1": {
+      "DESCRIPCION": "I have known Daniel for more than five years, I was his programming teacher and I can attest to his technical skills, his excellent skills in terms of teamwork, communication, problem solving and leadership, and his discipline and dedication to work. I have also had the opportunity to share with Daniel and I know that he is a reliable person. So I think he can be an excellent addition to any work team.",
+      "PROFESION": "Software engineer"
+    },
+    "TESTIMONIO2": {
+      "DESCRIPCION": "Daniel is an excellent proactive developer above all else and always looking for the best practices, we have participated and still continue in the joint development of platforms that have excellent performance in modern technologies.",
+      "PROFESION": "Software developer, content creator"
+    }
+  },
+  "FOOTER": {
+    "SOCIAL": "SOCIAL",
+    "DESCRIPCION": "A software developer, with the sole purpose of serving the community and constantly learning.",
+    "CREADO_POR": "Created by",
+    "CREADO_CON": "Made with"
+  },
+  "CONTACT": {
+    "DESCRIPCION": "I am always ready to face new challenges. Tell me yours."
+  },
+  "FORM_CONTACT": {
+    "NOMBRE": "Name",
+    "EMAIL": "Email",
+    "MENSAJE": "Message",
+    "ENVIAR": "Send",
+    "ENVIANDO": "Sending"
+  },
+  "VALIDATIONS": {
+    "NOMBRE_REQUERIDO": "Name is required",
+    "EMAIL_REQUERIDO": "Email is required",
+    "EMAIL_INVALIDO": "Email is not valid 'example@example.com'",
+    "MENSAJE_REQUERIDO": "The message is required",
+    "MENSAJE_LONGITUD_MINIMA": "The message must contain at least 30 character",
+    "MENSAJE_LONGITUD_MAXIMA": "The message must contain a maximum of 500 characters"
+  },
+  "SUCCESS": {
+    "TITULO": "!Cool! Together we will create great things",
+    "DESCRIPCION": "Your message has been sent, I will contact you shortly",
+    "CONTINUAR": "Continue"
+  },
+  "NOT_FOUND": {
+    "TITULO": "It seems that you are lost. Maybe try a different page?",
+    "RETORNAR": "Return home"
+  }
+}

@@ -1,0 +1,90 @@
+@import "./src/shared.scss";
+
+.reviews {
+  padding: 7rem 0;
+  background-color: #fafafa;
+}
+
+.reviews__content {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 12px;
+  max-width: 700px;
+  margin-top: -2rem;
+}
+
+.reviews__controls {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.reviews__dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #a8a8a8;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.container__title--transform-margin {
+  margin-bottom: 4rem;
+}
+
+.reviews__dot--active {
+  background-color: $base-color;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  75% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+//phone
+@media print, screen and (max-width: $max-screen-phone) {
+  .reviews {
+    padding: 7rem 0;
+    background-color: #fafafa;
+  }
+  .reviews__dot {
+    padding: 2px;
+  }
+  .reviews__container-dot {
+    padding: 10px;
+  }
+}
+
+//tablet
+@media print,
+  screen and (min-width: $min-screen-tablet) and (max-width: $max-screen-tablet) {
+  .main-text {
+    margin: 0;
+  }
+  .description {
+    font-size: 1.1rem;
+    font-weight: initial;
+  }
+}
+
+//desktop
+@media print, screen and (min-width: $min-screen-desktop) {
+}
