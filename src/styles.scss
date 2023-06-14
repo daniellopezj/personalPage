@@ -25,7 +25,8 @@ li {
   list-style: none;
 }
 
-a, button,
+a,
+button,
 span,
 p {
   font-family: "Source Sans Pro", sans-serif;
@@ -106,6 +107,12 @@ textarea {
   text-decoration: underline;
 }
 
+.projects__video {
+  iframe {
+    width: 100%;
+  }
+}
+
 //phone
 @media print, screen and (max-width: $max-screen-phone) {
   .content-view {
@@ -115,6 +122,13 @@ textarea {
     margin: 1rem 0;
     width: 100%;
   }
+  .projects__video {
+    iframe {
+      height: 100%;
+    }
+  }
+
+
 
   .second-title {
     font-size: 1.4rem;

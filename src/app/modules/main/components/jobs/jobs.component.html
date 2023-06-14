@@ -8,15 +8,10 @@
 
     <div class="projects__content">
       <div class="projects__row" *ngFor="let job of jobs">
-        <iframe
-          class="projects__video"
-          [src]="transformUrl(job.video)"
-          title="YouTube video player"
-          frameborder="0"
-          webkitallowfullscreen
-          mozallowfullscreen
-          allowfullscreen
-        ></iframe>
+        <div class="project__container-video">
+          <youtube-player [videoId]="job.videoId" class="projects__video">
+          </youtube-player>
+        </div>
         <div class="projects__details">
           <h1 class="second-title">{{ job.title | translate }}</h1>
           <div class="projects__details-content">
