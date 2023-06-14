@@ -19,7 +19,6 @@ import { SkillsComponent } from './components/skills/skills.component';
     ClickOutSideDirective,
     SectionTitleComponent,
     SkillsComponent,
-
   ],
   imports: [
     CommonModule,

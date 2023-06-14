@@ -14,7 +14,7 @@ import { JobsComponent } from './components/jobs/jobs.component';
 import { CollaborationsComponent } from './components/collaborations/collaborations.component';
 import { CompanyComponent } from './components/collaborations/company/company.component';
 import { ContactModule } from './components/contact/contact.module';
-
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,8 @@ import { ContactModule } from './components/contact/contact.module';
     SharedModule,
     FontAwesomeModule,
     TranslateModule,
-    ContactModule
+    ContactModule,
+    YouTubePlayerModule
   ]
 })
 export class MainModule { }

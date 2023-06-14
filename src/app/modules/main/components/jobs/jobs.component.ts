@@ -20,6 +20,7 @@ export class JobsComponent implements OnInit {
         title: 'Mochileros',
         description: 'JOBS.TRABAJO2.DESCRIPCION',
         video: 'https://www.youtube.com/embed/gh2jDNJ1vkU',
+        videoId: 'gh2jDNJ1vkU',
         skills: ['Angular', 'TypeScript', 'JavaScript', 'AWS', 'Node js', 'Express', 'Mongo db', 'Jest', 'git'],
       },
       {
@@ -27,6 +28,7 @@ export class JobsComponent implements OnInit {
         title: 'GDS Sabre',
         description: 'JOBS.TRABAJO3.DESCRIPCION',
         video: 'https://www.youtube.com/embed/xaXoLalub88',
+        videoId: 'xaXoLalub88',
         skills: ['Angular', 'git', 'TypeScript', 'JavaScript', 'Html/css', 'REST API', 'Node JS', 'Express', 'Jest'],
       },
       {
@@ -34,12 +36,9 @@ export class JobsComponent implements OnInit {
         title: 'JOBS.TRABAJO4.TITULO',
         description: 'JOBS.TRABAJO4.DESCRIPCION',
         video: 'https://www.youtube.com/embed/BuumtaCafD8',
+        videoId: 'BuumtaCafD8',
         skills: ['Angular', 'git', 'TypeScript', 'Responsive Design', 'Html/css',],
       },
     ]
   }
-  transformUrl(url: string) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
-  }
-
 }
