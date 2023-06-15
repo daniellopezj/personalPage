@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  serviceMailID:'service_54s63nm',
-  templateMailID:'template_tu3fz65',
-  publicKeyMailID:'t4lSH1UBpnieaynDF',
+  SERVICE_MAIL_ID:'service_54s63nm',
+  TEMPLATE_MAIL_ID:'template_tu3fz65',
+  PUBLIC_KEY_MAIL_ID:'t4lSH1UBpnieaynDF',
 };
 
 /*
