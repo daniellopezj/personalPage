@@ -88,7 +88,7 @@ export class FormContactComponent {
       this.sending = false
       return
     }
-      emailjs.send(environment.serviceMailID, environment.templateMailID, this.formContact.value, environment.publicKeyMailID)
+      emailjs.send(environment.SERVICE_MAIL_ID, environment.TEMPLATE_MAIL_ID, this.formContact.value, environment.PUBLIC_KEY_MAIL_ID)
         .then(() => {
           this.sending = false
           this.router.navigate(['success'])

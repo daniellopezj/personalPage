@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  serviceMailID:'service_xmffodw',
-  templateMailID:'template_tu3fz65',
-  publicKeyMailID:'t4lSH1UBpnieaynDF',
+  SERVICE_MAIL_ID:'service_xmffodw',
+  TEMPLATE_MAIL_ID:'template_tu3fz65',
+  PUBLIC_KEY_MAIL_ID:'t4lSH1UBpnieaynDF',
 };
