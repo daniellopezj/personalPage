@@ -26,6 +26,10 @@
   },
   "JOBS": {
     "DESCRIPCION": "Aquí hay algunos proyectos de software en los que he participado",
+    "TRABAJO1": {
+      "TITULO": "Clon Idealista",
+      "DESCRIPCION": "Replica completamente funcional de la principal Empresa del sector inmobiliario en Europa.   <a class='link-github' target='_blank' href='https://github.com/ldani-dev/clone-idealista'>Ver github</a>"
+    },
     "TRABAJO2": {
       "DESCRIPCION": "La empresa Mexicana, Mochileros. Dedicada a la comercialización de tours a nivel mundial. Requería desarrollar una plataforma web en la cual publicar sus servicios, la cual debía contar con <span class='paragraph-strong'> sistemas de geolocalización</span> e  integración con <span class='paragraph-background'> pasarelas de pagos </span>. Además, un panel de control en el cual se gestionara la información publicada en la plataforma web."
     },

@@ -27,7 +27,10 @@
   },
   "JOBS": {
     "DESCRIPCION": "Here are some software projects I've been involved in",
-
+    "TRABAJO1": {
+      "TITULO": "Clone Idealista",
+      "DESCRIPCION": "Fully functional replica of Europe's leading real estate company..   <a class='link-github' target='_blank' href='https://github.com/ldani-dev/clone-idealista'>Ver github</a>"
+    },
     "TRABAJO2": {
       "DESCRIPCION": "The Mexican company, Backpackers. Dedicated to the marketing of tours worldwide. It required developing a web platform in which to publish its services, which had to have  <span class='paragraph-strong'> geolocation systems</span>  and integration with  <span class='paragraph-background'>payment gateways</span>. In addition, a control panel in which the information published on the web platform will be managed."
     },

@@ -1,7 +1,6 @@
 import { SharedService } from '@/app/services/shared.service';
 import { Component, OnInit, Input, } from '@angular/core';
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons';
-import { DeviceDetectorService } from 'ngx-device-detector';
 import {
   faEllipsisVertical
 } from '@fortawesome/free-solid-svg-icons'
@@ -70,7 +69,6 @@ export class HeaderComponent implements OnInit {
   ]
   constructor(
     private sharedService: SharedService,
-    public deviceService: DeviceDetectorService,
   ) { }
 
   ngOnInit(): void {
