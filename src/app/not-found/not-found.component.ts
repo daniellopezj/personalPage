@@ -10,9 +10,7 @@ import { Router } from '@angular/router';
 export class NotFoundComponent implements OnInit {
   constructor(private router: Router,private title: Title) { }
   ngOnInit(): void {
-
     this.title.setTitle('🧛‍♂️ pagina no encontrada')
-
   }
 
   goTo(route: string) {
