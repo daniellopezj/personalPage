@@ -8,12 +8,19 @@
 
     <div class="projects__content">
       <div class="projects__row" *ngFor="let job of jobs">
-        <div class="project__container-video">
+        <div *ngIf="job.video" class="project__container-video">
           <youtube-player [videoId]="job.videoId" class="projects__video">
           </youtube-player>
         </div>
+        <div *ngIf="job.image" class="project__container-image">
+          <img
+            class="project__image"
+            [src]="job.image"
+            alt="logo"
+          />
+        </div>
         <div class="projects__details">
-          <h1 class="second-title">{{ job.title | translate }}</h1>
+          <h2 class="second-title">{{ job.title | translate }}</h2>
           <div class="projects__details-content">
             <p
               class="projects__details-paragraph"
@@ -21,6 +28,7 @@
             ></p>
           </div>
           <app-skills [skills]="job.skills"></app-skills>
+          <a *ngIf="job.link" class="project__link" [href]="job.link" target="_blank" rel="">Visitar sitio</a>
         </div>
       </div>
     </div>

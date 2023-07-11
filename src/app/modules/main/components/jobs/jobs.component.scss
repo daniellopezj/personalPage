@@ -26,7 +26,7 @@
   margin-bottom: 1rem;
 }
 
-.projects__details-paragraph{
+.projects__details-paragraph {
   margin-top: 0;
 }
 
@@ -36,8 +36,38 @@
   width: 100%;
 }
 
-.project__container-video{
+.project__container-video {
   display: flex;
+}
+.project__container-image {
+  display: flex;
+}
+
+.project__image {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0 10px #e3dfdf;
+  background-size: cover;
+}
+
+.project__image:hover{
+cursor: pointer;
+}
+
+.project__link {
+  cursor: pointer;
+  margin: 1rem 0;
+  text-transform: initial;
+  text-decoration: initial;
+  color: #1a8cff;
+  font-weight: 600;
+  font-size: 1.1rem;
+  white-space: break-spaces;
+}
+
+.project__link:hover {
+  color: #0066cd;
+  text-decoration: underline;
 }
 
 @media print, screen and (max-width: $max-screen-phone) {
@@ -65,7 +95,7 @@
     text-align: center;
     font-size: 0.9rem;
   }
-  .projects__github{
+  .projects__github {
     margin-bottom: 3rem;
   }
 }
@@ -102,7 +132,7 @@
     text-align: center;
     font-size: 0.9rem;
   }
-  .projects__github{
+  .projects__github {
     margin-bottom: 5rem;
   }
 }

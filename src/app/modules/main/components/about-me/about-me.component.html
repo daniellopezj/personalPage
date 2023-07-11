@@ -6,7 +6,7 @@
     ></app-section-title>
     <div class="about__content">
       <div class="about__me">
-        <h1 class="second-title">{{ "ABOUT_ME.CONOCEME" | translate }}</h1>
+        <h2 class="second-title">{{ "ABOUT_ME.CONOCEME" | translate }}</h2>
         <div class="about__me-content">
           <p class="about__me-paragraph">
             <span [innerHtml]="'ABOUT_ME.PARAGRAFO_1' | translate"></span>
@@ -28,9 +28,9 @@
         </div>
       </div>
       <div class="about__skills">
-        <h1 class="second-title">
+        <h2 class="second-title">
           {{ "ABOUT_ME.HABILIDADES_TECNICAS" | translate }}
-        </h1>
+        </h2>
         <app-skills [skills]="technicalSkills"></app-skills>
       </div>
     </div>

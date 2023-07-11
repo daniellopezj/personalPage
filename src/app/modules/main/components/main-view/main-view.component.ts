@@ -1,7 +1,6 @@
 import { SharedService } from '@/app/services/shared.service';
-import { isPlatformBrowser } from '@angular/common';
 import { Component } from '@angular/core';
-import { faLinkedinIn, faGithub, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-main-view',
@@ -14,7 +13,7 @@ export class MainViewComponent {
     {
       icon: faLinkedinIn,
       name: 'linkedIn',
-      link: 'https://www.linkedin.com/in/dani-dev/'
+      link: 'https://linkedin.com/in/dani-dev/'
     },
     {
       icon: faGithub,
@@ -24,7 +23,7 @@ export class MainViewComponent {
     {
       icon: faTwitter,
       name: 'twitter',
-      link: 'https://twitter.com/daniellopezj01'
+      link: 'https://twitter.com/ldanidev'
     },
   ]
 
