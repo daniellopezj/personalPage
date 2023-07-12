@@ -1,7 +1,15 @@
 import { JobsFormat } from '@/types/general.types';
-import { Inject, Injectable, PLATFORM_ID } from '@angular/core';
 import { Component, Input, OnInit } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
+import { YoutubeService } from './youtube.service';
+import { DeviceDetectorService } from 'ngx-device-detector';
+import { CheckVisitorService } from '@/app/services/check-visitor.service';
+
+declare global {
+  interface Window {
+    onYouTubeIframeAPIReady: () => void;
+    YT: any;
+  }
+}
 
 @Component({
   selector: 'app-job',
@@ -11,26 +19,23 @@ import { isPlatformBrowser } from '@angular/common';
 export class JobComponent implements OnInit {
 
   @Input() public job: JobsFormat = {
+    index: 0,
     title: '',
     description: '',
     skills: [],
     videoId: undefined
   };
 
-  public apiLoaded = false;
 
-  constructor(@Inject(PLATFORM_ID) public platformId: Object) {
+  public apiLoaded = false;
+  public idPlayer = ''
+  constructor(private youtubeService: YoutubeService, private visitorService: CheckVisitorService) {
   }
 
   ngOnInit() {
-    if (isPlatformBrowser(this.platformId)) {
-      if (!this.apiLoaded && this.job.videoId) {
-        const tag = document.createElement('script');
-        tag.src = 'https://www.youtube.com/iframe_api';
-        document.body.appendChild(tag);
-        this.apiLoaded = true;
-      }
+    if (this.visitorService.isHuman && this.job.videoId) {
+      this.idPlayer = `youtube-player${this.job.index}`
+      this.youtubeService.initPlayer(this.idPlayer, this.job.videoId)
     }
   }
-
 }

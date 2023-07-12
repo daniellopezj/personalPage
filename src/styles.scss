@@ -107,10 +107,8 @@ textarea {
   text-decoration: underline;
 }
 
-.job__video {
-  iframe {
-    width: 100%;
-  }
+iframe {
+  width: 100% !important;
 }
 
 //phone
@@ -122,13 +120,10 @@ textarea {
     margin: 1rem 0;
     width: 100%;
   }
-  .projects__video {
+
     iframe {
       height: 100%;
     }
-  }
-
-
 
   .second-title {
     font-size: 1.4rem;

@@ -1,7 +1,6 @@
 <div class="job__row" >
-  <div *ngIf="job.videoId && apiLoaded" class="job__container-video">
-    <youtube-player  [videoId]="job.videoId" class="job__video">
-    </youtube-player>
+  <div *ngIf="job.videoId" class="job__container-video">
+    <div [id]="idPlayer"></div>
   </div>
   <div *ngIf="job.image" class="job__container-image">
     <img
