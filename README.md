@@ -1,6 +1,18 @@
 # Pagina Personal
+![angular Version](https://img.shields.io/badge/angular-v14.2.0-red.svg)
+![Netlify](https://img.shields.io/badge/Netlify-green.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue)
+![Open Source](https://img.shields.io/badge/Open%20Source-%20yes-green)
 
 Página persona, desarrollado con `Angular 14`. sus principales caracteristicas son el `manejo de multiples idiomas`, `envio de emails` y `diseño adaptativo`.
+
+[Demo](https://danidev.me/)
+## Contacto 🚀
+
+- Website: https://danidev.me/
+- LinkedIn: [@dani-dev](https://www.linkedin.com/in/dani-dev/)
+- Github: [@ldanidev](https://github.com/ldani-dev)
+- Twitter: [@ldanidev](https://twitter.com/ldanidev)
 
 ## Contenido
 
