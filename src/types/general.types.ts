@@ -34,6 +34,7 @@ export type validationMessage = {
 
 
 export interface JobsFormat {
+  index: number,
   title: string;
   description: string;
   image?: string;
