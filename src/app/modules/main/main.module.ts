@@ -1,7 +1,6 @@
 import { TranslateModule } from '@ngx-translate/core';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { MainRoutingModule } from './main-routing.module';
 import { MainComponent } from './main.component';
 import { SharedModule } from '../shared/shared.module';
@@ -11,11 +10,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RecomendationsComponent } from './components/recomendations/recomendations.component';
 import { TestimonyComponent } from './components/recomendations/testimony/testimony.component';
 import { JobsComponent } from './components/jobs/jobs.component';
-import { CollaborationsComponent } from './components/collaborations/collaborations.component';
-import { CompanyComponent } from './components/collaborations/company/company.component';
 import { ContactModule } from './components/contact/contact.module';
 import { YouTubePlayerModule } from '@angular/youtube-player';
-
+import { JobComponent } from './components/jobs/job/job.component';
 @NgModule({
   declarations: [
     MainComponent,
@@ -24,8 +21,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     RecomendationsComponent,
     TestimonyComponent,
     JobsComponent,
-    CollaborationsComponent,
-    CompanyComponent,
+    JobComponent,
   ],
   imports: [
     CommonModule,

@@ -30,3 +30,14 @@ export type validationMessage = {
   key: string,
   message: string
 }
+
+
+
+export interface JobsFormat {
+  title: string;
+  description: string;
+  image?: string;
+  videoId?: string;
+  link?: string;
+  skills: string[],
+}

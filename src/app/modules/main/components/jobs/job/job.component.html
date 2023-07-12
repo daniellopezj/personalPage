@@ -1,0 +1,24 @@
+<div class="job__row" >
+  <div *ngIf="job.videoId && apiLoaded" class="job__container-video">
+    <youtube-player  [videoId]="job.videoId" class="job__video">
+    </youtube-player>
+  </div>
+  <div *ngIf="job.image" class="job__container-image">
+    <img
+      class="job__image"
+      [src]="job.image"
+      alt="logo"
+    />
+  </div>
+  <div class="job__details">
+    <h2 class="second-title">{{ job.title | translate }}</h2>
+    <div class="job__details-content">
+      <p
+        class="job__details-paragraph"
+        [innerHtml]="job.description | translate"
+      ></p>
+    </div>
+    <app-skills [skills]="job.skills"></app-skills>
+    <a *ngIf="job.link" class="job__link" [href]="job.link" target="_blank" rel="">Visitar sitio</a>
+  </div>
+</div>
