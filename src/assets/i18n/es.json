@@ -34,11 +34,11 @@
       "DESCRIPCION": "La empresa Mexicana, Mochileros. Dedicada a la comercialización de tours a nivel mundial. Requería desarrollar una plataforma web en la cual publicar sus servicios, la cual debía contar con <span class='paragraph-strong'> sistemas de geolocalización</span> e  integración con <span class='paragraph-background'> pasarelas de pagos </span>. Además, un panel de control en el cual se gestionara la información publicada en la plataforma web."
     },
     "TRABAJO3": {
-      "DESCRIPCION": "Integración de la API sabre. Esta api proporciona toda la información para la comercialización de vuelos (precios, horarios, escalas, etc). Fue integrada con la plataforma web de la empresa Mexicana, Mochileros."
+      "DESCRIPCION": "Integración de la API sabre. Esta api proporciona toda la información para la comercialización de vuelos (precios, horarios, escalas, etc) utilizando <span class='paragraph-background'> pasarelas de pagos con Stripe </span. Fue integrada con la plataforma web de la empresa Mexicana, Mochileros."
     },
     "TRABAJO4": {
-      "TITULO": "Página Personal",
-      "DESCRIPCION": "Este proyecto es una página personal desarrollada en Angular, la cual puede ser utilizada por cualquier persona que desee tener un sitio web. es totalmente gratis. <a class='link-github' target='_blank' href='https://github.com/ldani-dev/public-personalPage'>Ver github</a>"
+      "TITULO": "Portafolio danidev",
+      "DESCRIPCION": "Proyecto Open source desarrollado con angular 14 el cual le proporciona a desarrolladores una plantilla para crear su portafolio web. Es totalmente gratis!!. <a class='link-github' target='_blank' href='https://github.com/ldani-dev/public-personalPage'>Ver github</a>"
     }
   },
   "RECOMMENDATIONS": {

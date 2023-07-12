@@ -15,6 +15,7 @@ import { CollaborationsComponent } from './components/collaborations/collaborati
 import { CompanyComponent } from './components/collaborations/company/company.component';
 import { ContactModule } from './components/contact/contact.module';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { JobComponent } from './components/jobs/job/job.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     JobsComponent,
     CollaborationsComponent,
     CompanyComponent,
+    JobComponent,
   ],
   imports: [
     CommonModule,

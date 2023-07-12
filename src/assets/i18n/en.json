@@ -3,7 +3,6 @@
     "IDIOMA_INGLES": "English",
     "IDIOMA_ESPANOL": "Spanish"
   },
-
   "HEADER": {
     "INICIO": "Home",
     "CONTACTO": "Contact",
@@ -38,8 +37,8 @@
       "DESCRIPCION": "Saber API integration. This api provides all the information for the commercialization of flights (prices, schedules, stopovers, etc). It was integrated with the web platform of the Mexican company, Backpackers."
     },
     "TRABAJO4": {
-      "TITULO": "Personal Page",
-      "DESCRIPCION": "This project is a personal page developed in Angular, which can be used by anyone who wants to have a website. it's totally free. <a class='link-github' target='_blank' href='https://github.com/ldani-dev/public-personalPage'>View github</a>"
+      "TITULO": "Portfolio danidev",
+      "DESCRIPCION": "Open source project developed with Angular 14 which provides developers with a template to create their web portfolio. It's completely free! <a class='link-github' target='_blank' href='https://github.com/ldani-dev/public-personalPage'>View github</a>"
     }
   },
   "RECOMMENDATIONS": {
