@@ -23,7 +23,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     FontAwesomeModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      defaultLanguage: isLanguageSupported(global.navigator.language) ? global.navigator.language.split('-')[0] : 'en',
+      defaultLanguage: 'en',
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
@@ -36,9 +36,4 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   bootstrap: [AppComponent,]
 })
-export class AppModule { }
-
-function isLanguageSupported(language: string): boolean {
-  const supportedLanguages = ['en', 'es'];
-  return supportedLanguages.includes(language.split('-')[0]);
-}
+export class AppModule {}
