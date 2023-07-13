@@ -69,13 +69,14 @@ export class HeaderComponent implements OnInit {
   ]
   constructor(
     private sharedService: SharedService,
-  ) { }
-
-  ngOnInit(): void {
-    this.setLanguageHeader()
+  ) {
     this.sharedService.changeLanguage.subscribe(() => {
       this.setLanguageHeader()
     })
+  }
+
+  ngOnInit(): void {
+    this.setLanguageHeader()
   }
 
   setLanguageHeader() {
