@@ -1,7 +1,6 @@
 import { JobsFormat } from '@/types/general.types';
-import { Component, QueryList, ViewChildren, } from '@angular/core';
+import { Component,  } from '@angular/core';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
-import { JobComponent } from './job/job.component';
 @Component({
   selector: 'app-jobs',
   templateUrl: './jobs.component.html',
@@ -9,7 +8,7 @@ import { JobComponent } from './job/job.component';
 })
 
 export class JobsComponent {
-  private path = '../../../../../assets/jobs'
+  private path = '/assets/jobs'
   public faAngleRight = faAngleRight
   public jobs: JobsFormat[] = [{
     index:0,

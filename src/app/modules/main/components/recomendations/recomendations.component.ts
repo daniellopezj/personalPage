@@ -8,7 +8,7 @@ import { isPlatformBrowser } from '@angular/common';
 })
 export class RecomendationsComponent {
   @ViewChild('testimonyComponent') testimonyComponent: ElementRef | undefined;
-  private path = '../../../../../assets/reviews'
+  private path = '/assets/reviews'
   public testimonies: Testimony[] = [
     {
       idTestimony: 0,
