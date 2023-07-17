@@ -4,7 +4,7 @@
       <div class="header__container-logo">
         <img
           class="header__logo"
-          src="../../../../../assets/profile.png"
+          src="/assets/profile.png"
           alt="logo"
         />
       </div>
@@ -22,7 +22,7 @@
         class="header__menu"
         alt="menu"
           src="{{
-            '../../../../../assets/' +
+            '/assets/' +
               (showPopUp ? 'close-menu' : 'menu') +
               '.svg'
           }}"
@@ -36,7 +36,7 @@
         (mouseout)="hoverLanguage = false"
       >
         <img
-          src="{{ '../../../../../assets/' + selectLanguage.flag + '.png' }}"
+          src="{{ '/assets/' + selectLanguage.flag + '.png' }}"
           alt="{{ selectLanguage.text | translate }}"
         />
 
@@ -50,7 +50,7 @@
               *ngFor="let language of languages"
             >
               <img
-                src="{{ '../../../../../assets/' + language.flag + '.png' }}"
+                src="{{ '/assets/' + language.flag + '.png' }}"
                 alt=""
               />
               <span>{{ language.text | translate }}</span>
@@ -73,7 +73,7 @@
           *ngFor="let language of languages"
         >
           <img
-            src="{{ '../../../../../assets/' + language.flag + '.png' }}"
+            src="{{ '/assets/' + language.flag + '.png' }}"
             alt=""
           />
           <span class="header__link">{{ language.text | translate }}</span>
