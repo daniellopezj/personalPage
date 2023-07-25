@@ -17,10 +17,9 @@
   "ABOUT_ME": {
     "TITULO": "About me",
     "DESCRIPCION": "Get to know my technical skills and the values that characterize me.",
-    "PARAGRAFO_1": "I am a fullStack developer with strong knowledge of  <span class='paragraph-background'>JavaScript</span> and <span class='paragraph-background'>TypeScript</span> languages.",
-    "PARAGRAFO_2": "I have developed web platforms with <span class='paragraph-background'> frontend</span> technologies such as <span class='paragraph-strong'> Angular, React, Vue </span>  and <span class='paragraph-background'> backend</span> technologies such as <span class='paragraph-strong'> Node js </span> and  <span class='paragraph-strong'> express</span>, integrated with <span class='paragraph-strong'> No sql </span> databases such as  <span class='paragraph-strong'>mongo db</span> and implementing <span class='paragraph-strong'> AWS</span> architectures.",
-    "PARAGRAFO_3": "In my career, I have participated in challenging projects for companies from <span class='paragraph-strong'> different countries </span>, which has allowed me to consolidate my technical knowledge and improve in solving real problems through technology.",
-    "PARAGRAFO_4": "I am motivated by new challenges and belonging to great teams that aim to develop quality products. <span class='paragraph-strong'> I am a person who loves change</span>, <span class='paragraph-strong'> reliable</span>  and  <span class='paragraph-strong'>disciplined</span> .",
+    "PARAGRAFO_1": "I enjoy delving into clients' problems and solving them using modern technologies. I have created web platforms for <span class='paragraph-strong'> different companies around the world</span>, always focusing on developing <span class='paragraph-background'> quality </span> and highly scalable products.",
+    "PARAGRAFO_2": "Having constant curiosity is a skill that I have developed over the years, and this has allowed me to learn in-depth about the technologies I work with. I always have a good disposition to develop new skills and <span class='paragraph-strong'>  face challenges </span>  that arise on the way to my goals.    ",
+    "PARAGRAFO_3": " Meeting new people and listening to new perspectives is something I truly enjoy doing. Drop me a message if you want to talk about software development, new technologies,<span class='paragraph-strong'> or grab a coffee.</span>",
     "CONOCEME": "know me!",
     "HABILIDADES_TECNICAS": "Technical skills"
   },
