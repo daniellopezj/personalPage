@@ -17,10 +17,9 @@
   "ABOUT_ME": {
     "TITULO": "Sobre mí",
     "DESCRIPCION": "Conoce mis habilidades técnicas y los valores que me caracterizan.",
-    "PARAGRAFO_1": "Soy un desarrollador fullStack con sólidos conocimientos en los    lenguajes <span class='paragraph-background'>JavaScript</span> y <span class='paragraph-background'>TypeScript</span>.",
-    "PARAGRAFO_2": "He desarrollado plataformas web con tecnologías <span class='paragraph-background'> frontend</span> como <span class='paragraph-strong'> Angular, React, Vue </span> y tecnologías <span class='paragraph-background'> backend</span> como lo son <span class='paragraph-strong'> Node js </span> y <span class='paragraph-strong'> express</span>, integradas con bases de datos <span class='paragraph-strong'> No sql </span> como <span class='paragraph-strong'>mongo db</span> e implementando arquitecturas <span class='paragraph-strong'> AWS</span>.",
-    "PARAGRAFO_3": "En mi carrera, he participado en proyectos retadores para empresas de    <span class='paragraph-strong'> diferentes países</span>, lo cual me ha permitido consolidar mis conocimientos técnicos y mejorar en la <span class='paragraph-strong'> solución de problemas reales</span> mediante la tecnología.",
-    "PARAGRAFO_4": "Me motivan los nuevos desafíos y pertenecer a grandes equipos que tengan como objetivo desarrollar productos de calidad. <span class='paragraph-strong'> Soy una persona amante del cambio</span>, <span class='paragraph-strong'>confiable</span> y <span class='paragraph-strong'>disciplinada</span>.",
+    "PARAGRAFO_1": "Disfruto profundizar en los problemas de los clientes y solucionarlos utilizando tecnologías modernas. He creado plataformas web para <span class='paragraph-strong'>  diferentes empresas alrededor del mundo</span>, teniendo siempre como enfoque desarrollar productos de <span class='paragraph-background'>Calidad</span> y altamente escalables.",
+    "PARAGRAFO_2": "Tener curiosidad constante es una habilidad que he desarrollado con el paso de los años y esto me ha permitido aprender a profundidad sobre las tecnologías en las que trabajo. Siempre tengo buena disposición para desarrollar nuevas habilidades y   <span class='paragraph-strong'> afrontar desafíos </span> que se presentan en el camino hacia mis metas.",
+    "PARAGRAFO_3": "Conocer nuevas personas y escuchar nuevas perspectivas es algo que realmente disfruto hacer. Déjame un mensaje si quieres hablar sobre desarrollo de software, nuevas tecnologías o <span class='paragraph-strong'>  ir por un café.</span> ",
     "CONOCEME": "Conóceme!",
     "HABILIDADES_TECNICAS": "Habilidades técnicas"
   },
