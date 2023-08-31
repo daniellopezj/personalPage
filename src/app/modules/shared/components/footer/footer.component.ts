@@ -11,7 +11,7 @@ export class FooterComponent {
     {
       icon: faLinkedinIn,
       name: 'linkedIn',
-      link: 'https://linkedin.com/in/dani-dev/'
+      link: 'https://linkedin.com/in/daniel-lopezj/'
     },
     {
       icon: faGithub,
@@ -21,7 +21,7 @@ export class FooterComponent {
     {
       icon: faTwitter,
       name: 'twitter',
-      link: 'https://twitter.com/daniellopezj01'
+      link: 'https://twitter.com/daniellopezj_'
     },
     // {
     //   icon: faInstagram,

@@ -10,9 +10,9 @@ Página persona, desarrollado con `Angular 14`. sus principales caracteristicas 
 ## Contacto 🚀
 
 - Website: https://danidev.me/
-- LinkedIn: [@dani-dev](https://www.linkedin.com/in/dani-dev/)
+- LinkedIn: [@daniellopezj](https://www.linkedin.com/in/daniel-lopezj/)
 - Github: [@daniellopezj](https://github.com/daniellopezj)
-- Twitter: [@ldanidev](https://twitter.com/ldanidev)
+- Twitter: [@daniellopezj](https://twitter.com/daniellopezj_)
 
 ## Contenido
 
