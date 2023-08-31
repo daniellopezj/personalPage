@@ -11,7 +11,7 @@ Página persona, desarrollado con `Angular 14`. sus principales caracteristicas 
 
 - Website: https://danidev.me/
 - LinkedIn: [@dani-dev](https://www.linkedin.com/in/dani-dev/)
-- Github: [@ldanidev](https://github.com/ldani-dev)
+- Github: [@daniellopezj](https://github.com/daniellopezj)
 - Twitter: [@ldanidev](https://twitter.com/ldanidev)
 
 ## Contenido

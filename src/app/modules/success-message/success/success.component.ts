@@ -11,7 +11,7 @@ export class SuccessComponent  implements OnInit{
   faXmark = faXmark
   constructor(private router: Router,private title: Title) { }
   ngOnInit(): void {
-    this.title.setTitle('✨🎉danidev | contacto exitoso')
+    this.title.setTitle('✨🎉daniel lopez | contacto exitoso')
   }
 
   goTo(route: string) {
