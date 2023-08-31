@@ -13,7 +13,7 @@ export class MainViewComponent {
     {
       icon: faLinkedinIn,
       name: 'linkedIn',
-      link: 'https://linkedin.com/in/dani-dev/'
+      link: 'https://linkedin.com/in/daniel-lopezj/'
     },
     {
       icon: faGithub,
@@ -23,7 +23,7 @@ export class MainViewComponent {
     {
       icon: faTwitter,
       name: 'twitter',
-      link: 'https://twitter.com/ldanidev'
+      link: 'https://twitter.com/daniellopezj_'
     },
   ]
 
