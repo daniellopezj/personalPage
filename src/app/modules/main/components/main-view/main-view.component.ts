@@ -18,7 +18,7 @@ export class MainViewComponent {
     {
       icon: faGithub,
       name: 'hithub',
-      link: 'https://github.com/ldani-dev'
+      link: 'https://github.com/daniellopezj'
     },
     {
       icon: faTwitter,

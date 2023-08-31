@@ -27,7 +27,7 @@
     "DESCRIPCION": "Here are some software projects I've been involved in",
     "TRABAJO1": {
       "TITULO": "Clone Idealista",
-      "DESCRIPCION": "Fully functional replica of Europe's leading real estate company.   <a class='link-github' target='_blank' href='https://github.com/ldani-dev/clone-idealista'>Ver github</a>"
+      "DESCRIPCION": "Fully functional replica of Europe's leading real estate company.   <a class='link-github' target='_blank' href='https://github.com/daniellopezj/clone-idealista'>Ver github</a>"
     },
     "TRABAJO2": {
       "DESCRIPCION": "The Mexican company, Backpackers. Dedicated to the marketing of tours worldwide. It required developing a web platform in which to publish its services, which had to have  <span class='paragraph-strong'> geolocation systems</span>  and integration with  <span class='paragraph-background'>payment gateways</span>. In addition, a control panel in which the information published on the web platform will be managed."
@@ -36,8 +36,8 @@
       "DESCRIPCION": "Saber API integration. This api provides all the information for the commercialization of flights (prices, schedules, stopovers, etc). It was integrated with the web platform of the Mexican company, Backpackers."
     },
     "TRABAJO4": {
-      "TITULO": "Portfolio danidev",
-      "DESCRIPCION": "Open source project developed with Angular 14 which provides developers with a template to create their web portfolio. It's completely free! <a class='link-github' target='_blank' href='https://github.com/ldani-dev/public-personalPage'>View github</a>"
+      "TITULO": "Public Portfolio",
+      "DESCRIPCION": "Open source project developed with Angular 14 which provides developers with a template to create their web portfolio. It's completely free! <a class='link-github' target='_blank' href='https://github.com/daniellopezj/public-personalPage'>View github</a>"
     }
   },
   "RECOMMENDATIONS": {

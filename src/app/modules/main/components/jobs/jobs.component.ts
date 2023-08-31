@@ -23,7 +23,7 @@ export class JobsComponent {
     image: `${this.path}/portafolio.webp`,
     title: 'JOBS.TRABAJO4.TITULO',
     description: 'JOBS.TRABAJO4.DESCRIPCION',
-    link: 'https://danidev-portafolio.netlify.app/',
+    link: 'https://daniellopezj-portafolio.netlify.app/',
     skills: ['Angular', 'git', 'TypeScript', 'Responsive Design', 'Html/css',],
   },
   {

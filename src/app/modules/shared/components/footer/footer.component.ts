@@ -16,7 +16,7 @@ export class FooterComponent {
     {
       icon: faGithub,
       name: 'hithub',
-      link: 'https://github.com/ldani-dev'
+      link: 'https://github.com/daniellopezj'
     },
     {
       icon: faTwitter,
