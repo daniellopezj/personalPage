@@ -6,7 +6,7 @@
 
 Página persona, desarrollado con `Angular 14`. sus principales caracteristicas son el `manejo de multiples idiomas`, `envio de emails` y `diseño adaptativo`.
 
-[Demo](https://daniellopezj.com/)
+[Demo](https://daniellopezj.netlify.app/)
 ## Contacto 🚀
 
 - Website: https://daniellopezj.com/
